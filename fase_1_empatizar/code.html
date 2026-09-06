@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;800&amp;family=Lexend:wght@400;600&amp;family=JetBrains+Mono:wght@400&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}nav a:hover{background-color: #006C49; cursor: pointer;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"error":"#ba1a1a","error-container":"#ffdad6","inverse-on-surface":"#eaf1ff","primary-container":"#10b981","on-surface":"#0b1c30","on-secondary-fixed-variant":"#3f465c","inverse-surface":"#213145","surface-variant":"#d3e4fe","primary-fixed":"#6ffbbe","primary-fixed-dim":"#4edea3","primary":"#006c49","on-surface-variant":"#3c4a42","surface":"#f8f9ff","on-secondary-container":"#5c647a","surface-container":"#e5eeff","on-primary-container":"#00422b","surface-container-low":"#eff4ff","on-primary-fixed":"#002113","background":"#f8f9ff","on-primary":"#ffffff","on-tertiary-container":"#523200","on-background":"#0b1c30","outline-variant":"#bbcabf","on-tertiary-fixed-variant":"#653e00","on-secondary-fixed":"#131b2e","inverse-primary":"#4edea3","tertiary-fixed":"#ffddb8","on-tertiary-fixed":"#2a1700","on-primary-fixed-variant":"#005236","outline":"#6c7a71","secondary-container":"#dae2fd","surface-container-lowest":"#ffffff","tertiary-container":"#e29100","on-secondary":"#ffffff","tertiary":"#855300","on-error":"#ffffff","surface-dim":"#cbdbf5","secondary-fixed":"#dae2fd","secondary":"#565e74","surface-tint":"#006c49","on-tertiary":"#ffffff","on-error-container":"#93000a","surface-container-high":"#dce9ff","surface-bright":"#f8f9ff","tertiary-fixed-dim":"#ffb95f","surface-container-highest":"#d3e4fe","secondary-fixed-dim":"#bec6e0"},"borderRadius":{"DEFAULT":"1rem","lg":"2rem","xl":"3rem","full":"9999px"},"spacing":{"space-4xl":"6rem","space-xxs":"0.25rem","space-2xl":"3rem","container-max":"76rem","gutter-mobile":"1rem","space-md":"1rem","space-sm":"0.75rem","gutter-desktop":"1.5rem","space-lg":"1.5rem","space-xl":"2rem","space-xs":"0.5rem","space-3xl":"4.5rem"},"fontFamily":{"label-lg":["Lexend"],"body-md":["Lexend"],"label-md":["Lexend"],"headline-lg":["Bricolage Grotesque"],"display-hero":["Bricolage Grotesque"],"code-mono":["JetBrains Mono"],"headline-sm":["Bricolage Grotesque"],"headline-md":["Bricolage Grotesque"],"body-sm":["Lexend"],"display-hero-mobile":["Bricolage Grotesque"],"headline-lg-mobile":["Bricolage Grotesque"],"body-lg":["Lexend"]},"fontSize":{"label-lg":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.02em","fontWeight":"600"}],"body-md":["1rem",{"lineHeight":"1.625rem","fontWeight":"400"}],"label-md":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.05em","fontWeight":"600"}],"headline-lg":["2.5rem",{"lineHeight":"2.875rem","letterSpacing":"-0.02em","fontWeight":"700"}],"display-hero":["3.5rem",{"lineHeight":"3.75rem","letterSpacing":"-0.03em","fontWeight":"800"}],"code-mono":["0.8125rem",{"lineHeight":"1.25rem","fontWeight":"400"}],"headline-sm":["1.25rem",{"lineHeight":"1.625rem","fontWeight":"600"}],"headline-md":["1.75rem",{"lineHeight":"2.125rem","letterSpacing":"-0.01em","fontWeight":"700"}],"body-sm":["0.875rem",{"lineHeight":"1.375rem","fontWeight":"400"}],"display-hero-mobile":["2.25rem",{"lineHeight":"2.5rem","letterSpacing":"-0.02em","fontWeight":"800"}],"headline-lg-mobile":["1.75rem",{"lineHeight":"2.125rem","letterSpacing":"-0.01em","fontWeight":"700"}],"body-lg":["1.125rem",{"lineHeight":"1.875rem","fontWeight":"400"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-container-max mx-auto px-gutter-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Logo San Fernando Design Thinking" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAgpk7NiSyJCFvNd6WLimO11rDyHHE9PNTVnDUHUEt64-_vdz2AwP5rIRXKLyteVP8a0XLdwPHB7zJARPszPxLvPcmcTwwpEq7swC4RIKAf0Z3Lc9gQ5rfNKll8h9m7sgZobsyDCkP9-onkcbXm0U8DYEUFuZOIHEguM8vuf5tGyVA9SXV_FagjrMbBpAG5Kcu0RDGjdTyj0gD2ezoDbWbkM5FGq4gkHEkibB9uS3mMJBeKvomTr3U0Q"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface leading-tight">San Fernando Co-Lab</span><span class="font-label-md text-label-md text-primary tracking-wide">Design Thinking</span></div></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-label-lg rounded-full px-space-sm py-space-xxs"><a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface transition-colors" data-path="vision-general" href="../san_fernando_co_lab_design_thinking_flow/code.html">Visión General</a><a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface transition-colors" data-path="fase-1-empatizar" href="../fase_1_empatizar/code.html">Fase 1: Empatizar</a><a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface transition-colors" data-path="fase-2-definir" href="../fase_2_definir/code.html">Fase 2: Definir</a><a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface transition-colors" data-path="fase-3-idear" href="../fase_3_idear/code.html">Fase 3: Idear</a><a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface transition-colors" data-path="fase-4-prototipar" href="../fase_4_prototipar/code.html">Fase 4: Prototipar</a><a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface transition-colors" data-path="fase-5-testear" href="../fase_5_testear/code.html">Fase 5: Testear</a><a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface transition-colors" data-path="video_pitch" href="../video_pitch/code.html">Video Pitch</a></nav><div class="flex items-center gap-space-md"><button class="hidden sm:inline-flex items-center justify-center px-space-md py-space-xs rounded-full bg-primary text-on-primary font-label-lg text-label-lg hover:bg-primary/90 transition-all shadow-sm" type="button"><span class="material-symbols-outlined text-[1.125rem] mr-space-xs">download</span>Descargar Memoria PDF</button><div class="flex items-center gap-space-xs bg-surface-container-low px-space-xs py-space-xxs rounded-full"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAb3Bv5jHPQx2P-7pmZKklCTzXCBRwH8Xt9DLxUxqnjsFIrOVedBnGjv0wwJsrtWojx677MjBq8Aul-brOw10tKdeC1KTe7gPJp9bayw6hwAFp1BgUaqDSFEM3PD72H8uBS6JpqaoP-H4inlgzMZIR2hsBgeF-zxJZ3Mi8hOr8BEboGWEvHGQUP7RF7QIydehyhVd-ZRRwcznHLeT5G2P-GNpjF8yMKxlyVqYL3hoDL6yveRX3aq59y0Q"/><div class="hidden md:flex flex-col pr-space-xs text-left"><span class="font-label-md text-label-md text-on-surface leading-tight">Prof. Facilitador</span><span class="font-label-md text-label-md text-on-surface-variant text-[0.6875rem] leading-none">Equipo 4B</span></div></div></div></div><div class="w-full bg-surface-container-low/70 py-space-xxs"><div class="max-w-container-max mx-auto px-gutter-desktop flex items-center justify-between overflow-x-auto gap-space-md"><div class="flex items-center gap-space-xs"><span class="w-5 h-5 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-md text-[0.625rem]">1</span><span class="font-label-md text-label-md text-on-surface whitespace-nowrap">Empatizar</span></div><div class="h-0.5 flex-1 min-w-8 bg-outline-variant/40 rounded-full"></div><div class="flex items-center gap-space-xs"><span class="w-5 h-5 rounded-full bg-surface-container text-on-surface-variant flex items-center justify-center font-label-md text-[0.625rem]">2</span><span class="font-label-md text-label-md text-on-surface-variant whitespace-nowrap">Definir</span></div><div class="h-0.5 flex-1 min-w-8 bg-outline-variant/40 rounded-full"></div><div class="flex items-center gap-space-xs"><span class="w-5 h-5 rounded-full bg-surface-container text-on-surface-variant flex items-center justify-center font-label-md text-[0.625rem]">3</span><span class="font-label-md text-label-md text-on-surface-variant whitespace-nowrap">Idear</span></div><div class="h-0.5 flex-1 min-w-8 bg-outline-variant/40 rounded-full"></div><div class="flex items-center gap-space-xs"><span class="w-5 h-5 rounded-full bg-surface-container text-on-surface-variant flex items-center justify-center font-label-md text-[0.625rem]">4</span><span class="font-label-md text-label-md text-on-surface-variant whitespace-nowrap">Prototipar</span></div><div class="h-0.5 flex-1 min-w-8 bg-outline-variant/40 rounded-full"></div><div class="flex items-center gap-space-xs"><span class="w-5 h-5 rounded-full bg-surface-container text-on-surface-variant flex items-center justify-center font-label-md text-[0.625rem]">5</span><span class="font-label-md text-label-md text-on-surface-variant whitespace-nowrap">Testear</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="max-w-container-max mx-auto px-gutter-desktop py-space-xl"><div class="flex flex-col w-full">
+<!-- Top Progress & Phase Context Bar -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl pb-space-md bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+<div class="space-y-space-xxs">
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-space-sm py-0.5 rounded-full bg-primary-container text-on-primary-container font-label-md text-label-md">
+<span class="material-symbols-outlined text-[1rem]">explore</span>
+          FASE 01 DE 05
+        </span>
+<span class="font-code-mono text-code-mono text-outline">DOC-REF: CSB-2026-EMP</span>
+</div>
+<h1 class="font-display-hero text-headline-lg md:text-display-hero text-on-surface tracking-tight">
+        Fase 1: Empatizar — Escuchar la Voz de la Comunidad
+      </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl">
+        Inmersión etnográfica en los patios, galerías y rincones desatendidos del Colegio San Fernando. Nuestro objetivo fue desentrañar las causas humanas, emocionales y sistémicas tras el desapego del espacio público compartido.
+      </p>
+</div>
+<!-- Quick Stats Metric Cluster -->
+<div class="flex items-center gap-space-sm self-start md:self-auto shrink-0">
+<div class="bg-surface-container-low px-space-md py-space-sm rounded-lg text-left">
+<span class="block font-headline-md text-headline-md text-primary font-bold">35</span>
+<span class="font-label-md text-label-md text-on-surface-variant uppercase">Entrevistas</span>
+</div>
+<div class="bg-surface-container-low px-space-md py-space-sm rounded-lg text-left">
+<span class="block font-headline-md text-headline-md text-primary font-bold">18h</span>
+<span class="font-label-md text-label-md text-on-surface-variant uppercase">Sombreado</span>
+</div>
+<div class="bg-surface-container-low px-space-md py-space-sm rounded-lg text-left">
+<span class="block font-headline-md text-headline-md text-tertiary font-bold">3</span>
+<span class="font-label-md text-label-md text-on-surface-variant uppercase">Puntos Ciegos</span>
+</div>
+</div>
+</div>
+<!-- Section 1: Métodos de Investigación Rigurosos -->
+<section class="mb-space-3xl">
+<div class="flex flex-col mb-space-lg">
+<span class="font-code-mono text-code-mono text-primary uppercase font-bold tracking-wider">// 01. Metodología de Campo</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Etnografía Escolar y Recolección Cualitativa</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+        Combinamos aproximaciones no invasivas y diálogos a profundidad estructurados para abarcar todo el espectro demográfico de la institución.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-lg">
+<!-- Card 1: Observación Pasiva -->
+<div class="md:col-span-4 bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined text-[1.5rem]">visibility</span>
+</div>
+<span class="font-label-md text-label-md uppercase text-secondary font-bold tracking-wider">Protocolo A</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-space-xxs mb-space-xs">Observación No Participante</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+            Registros sistemáticos de 15 minutos en los recreos diarios durante 2 semanas. Mapeo de flujos de tránsito, acumulación de residuos espontáneos y congregación social en zonas periféricas.
+          </p>
+</div>
+<div class="p-space-xs bg-surface-container-low rounded font-code-mono text-[0.75rem] text-on-surface-variant flex items-center justify-between">
+<span>COBERTURA: 100% RECREOS</span>
+<span class="text-primary font-bold">14 PLANILLAS</span>
+</div>
+</div>
+<!-- Card 2: Las 35 Entrevistas a Profundidad (Focus Breakdown) -->
+<div class="md:col-span-8 bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<div class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[1.5rem]">record_voice_over</span>
+</div>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-on-surface-variant font-code-mono text-code-mono">MUESTRA: N=35 PARTICIPANTES</span>
+</div>
+<span class="font-label-md text-label-md uppercase text-secondary font-bold tracking-wider">Protocolo B</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-space-xxs mb-space-xs">Diálogos Triangulados en Profundidad</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+            Sesiones semidirigidas de 25 minutos con guiones ajustados a cada rol. Exploramos vivencias sobre la pertenencia, el estrés ambiental, la higiene y la invisibilización del cuidado diario.
+          </p>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm pt-space-xs">
+<div class="bg-surface-container-low p-space-sm rounded-lg text-center">
+<span class="material-symbols-outlined text-primary text-[1.5rem] mb-1">school</span>
+<p class="font-headline-sm text-headline-sm text-on-surface">18</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Secundaria (1°-4°)</p>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg text-center">
+<span class="material-symbols-outlined text-primary text-[1.5rem] mb-1">cleaning_services</span>
+<p class="font-headline-sm text-headline-sm text-on-surface">6</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Maestranza / Aux.</p>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg text-center">
+<span class="material-symbols-outlined text-primary text-[1.5rem] mb-1">person_raised_hand</span>
+<p class="font-headline-sm text-headline-sm text-on-surface">6</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Docentes Patio</p>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg text-center">
+<span class="material-symbols-outlined text-primary text-[1.5rem] mb-1">groups</span>
+<p class="font-headline-sm text-headline-sm text-on-surface">5</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Delegados Centro</p>
+</div>
+</div>
+</div>
+<div class="mt-space-md flex items-center gap-space-xs text-on-surface-variant font-code-mono text-code-mono">
+<span class="material-symbols-outlined text-primary text-[1rem]">check_circle</span>
+<span>Consentimientos informados y anonimato garantizados según protocolo de bioética institucional.</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 2: Interactive Empathy Map Canvas -->
+<section class="mb-space-3xl bg-surface-container-low p-space-xl rounded-xl shadow-inner">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md mb-space-xl">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="font-code-mono text-code-mono text-primary uppercase font-bold tracking-wider">// 02. Síntesis Cognitiva</span>
+<span class="px-space-xs py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-[0.6875rem]">INTERACTIVO</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Mapa de Empatía Colectivo: El Estudiante de San Fernando</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Haz clic en cada cuadrante para expandir los testimonios textuales y notas adhesivas de campo.</p>
+</div>
+<!-- Segment Toggle Controls -->
+<div class="inline-flex bg-surface-container p-1 rounded-full text-on-surface-variant font-label-md text-label-md self-start">
+<button class="px-space-md py-1.5 rounded-full bg-primary text-on-primary font-bold transition-all shadow-sm" id="btn-all" onclick="filterMap('all')">Todos los Cuadrantes</button>
+<button class="px-space-md py-1.5 rounded-full hover:text-on-surface transition-all" id="btn-pains" onclick="filterMap('pains')">Dolores y Fricciones</button>
+<button class="px-space-md py-1.5 rounded-full hover:text-on-surface transition-all" id="btn-needs" onclick="filterMap('needs')">Deseos y Aspiraciones</button>
+</div>
+</div>
+<!-- The 4 Core Quadrants + Bottom Pain/Gain Split -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-lg">
+<!-- Quadrant 1: ¿QUÉ PIENSAN Y SIENTEN? -->
+<div class="map-card md:col-span-6 bg-surface-container-lowest p-space-lg rounded-xl shadow-sm transition-transform duration-200 hover:-translate-y-0.5" data-category="pains">
+<div class="flex items-center justify-between pb-space-xs mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[1.5rem]">psychology</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">¿Qué piensan y sienten?</h3>
+</div>
+<span class="text-xs font-code-mono text-outline">01 / INTERIOR</span>
+</div>
+<div class="space-y-space-sm">
+<!-- Sticky note 1 -->
+<div class="p-space-sm bg-[#fef3c7] text-[#523200] rounded-lg shadow-sm rotate-[-0.5deg]">
+<p class="font-body-sm text-body-sm font-semibold">"El colegio nos exige respeto, pero los espacios que nos dan parecen una prisión descuidada."</p>
+<span class="block mt-1 font-code-mono text-[0.6875rem] text-[#855300]">— Diario reflexivo, Alumno 7° A</span>
+</div>
+<!-- Sticky note 2 -->
+<div class="p-space-sm bg-[#fef3c7] text-[#523200] rounded-lg shadow-sm rotate-[1deg]">
+<p class="font-body-sm text-body-sm">Sienten vergüenza si sus padres o visitantes caminan cerca del patio trasero o los baños de secundaria baja.</p>
+</div>
+<!-- Sticky note 3 -->
+<div class="p-space-sm bg-surface-container-low rounded-lg">
+<p class="font-body-sm text-body-sm text-on-surface">Sensación de anonimato: <em>"Si nadie cuida las plantas, ¿por qué yo tendría que recoger el envoltorio que otro tiró?"</em></p>
+</div>
+</div>
+</div>
+<!-- Quadrant 2: ¿QUÉ VEN? -->
+<div class="map-card md:col-span-6 bg-surface-container-lowest p-space-lg rounded-xl shadow-sm transition-transform duration-200 hover:-translate-y-0.5" data-category="pains">
+<div class="flex items-center justify-between pb-space-xs mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[1.5rem]">visibility</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">¿Qué ven en el entorno?</h3>
+</div>
+<span class="text-xs font-code-mono text-outline">02 / VISUAL</span>
+</div>
+<div class="space-y-space-sm">
+<div class="p-space-sm bg-surface-container-low rounded-lg">
+<p class="font-body-sm text-body-sm text-on-surface"><strong>Contenedores llenos:</strong> A los 12 minutos de iniciado el recreo principal, los 4 basureros centrales colapsan.</p>
+</div>
+<div class="p-space-sm bg-[#fef3c7] text-[#523200] rounded-lg shadow-sm rotate-[-1deg]">
+<p class="font-body-sm text-body-sm font-semibold">"Patios de cemento gris sin sombra utilizable bajo el sol del mediodía."</p>
+<span class="block mt-1 font-code-mono text-[0.6875rem] text-[#855300]">— Ficha de campo #04</span>
+</div>
+<div class="p-space-sm bg-surface-container-low rounded-lg">
+<p class="font-body-sm text-body-sm text-on-surface">Señalética desgastada o con advertencias punitivas ("Prohibido pasar", "Multa si ensucias") que ya nadie lee.</p>
+</div>
+</div>
+</div>
+<!-- Quadrant 3: ¿QUÉ OYEN? -->
+<div class="map-card md:col-span-6 bg-surface-container-lowest p-space-lg rounded-xl shadow-sm transition-transform duration-200 hover:-translate-y-0.5" data-category="pains">
+<div class="flex items-center justify-between pb-space-xs mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[1.5rem]">hearing</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">¿Qué oyen a su alrededor?</h3>
+</div>
+<span class="text-xs font-code-mono text-outline">03 / AUDITIVO</span>
+</div>
+<div class="space-y-space-sm">
+<div class="p-space-sm bg-surface-container-low rounded-lg">
+<p class="font-body-sm text-body-sm text-on-surface">Insistentes silbatos y reprimendas por megafonía escolar: <em>"¡No boten basura en las canaletas!"</em>.</p>
+</div>
+<div class="p-space-sm bg-[#fef3c7] text-[#523200] rounded-lg shadow-sm rotate-[0.7deg]">
+<p class="font-body-sm text-body-sm">Comentarios de desánimo del personal de aseo: <em>"Siempre es lo mismo, limpiamos y en 5 minutos vuelve a ser un muladar."</em></p>
+<span class="block mt-1 font-code-mono text-[0.6875rem] text-[#855300]">— Conversación informal en pasillo B</span>
+</div>
+<div class="p-space-sm bg-surface-container-low rounded-lg">
+<p class="font-body-sm text-body-sm text-on-surface">Compañeros burlándose de quien intenta recoger botellas plásticas caídas: <em>"Déjalo ahí, para eso les pagan a los auxiliares"</em>.</p>
+</div>
+</div>
+</div>
+<!-- Quadrant 4: ¿QUÉ DICEN Y HACEN? -->
+<div class="map-card md:col-span-6 bg-surface-container-lowest p-space-lg rounded-xl shadow-sm transition-transform duration-200 hover:-translate-y-0.5" data-category="pains">
+<div class="flex items-center justify-between pb-space-xs mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[1.5rem]">forum</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">¿Qué dicen y hacen?</h3>
+</div>
+<span class="text-xs font-code-mono text-outline">04 / CONDUCTUAL</span>
+</div>
+<div class="space-y-space-sm">
+<div class="p-space-sm bg-[#fef3c7] text-[#523200] rounded-lg shadow-sm rotate-[-0.8deg]">
+<p class="font-body-sm text-body-sm font-semibold">"Decimos que cuidamos el planeta en la clase de Biología, pero dejamos los envases de jugo en las gradas."</p>
+<span class="block mt-1 font-code-mono text-[0.6875rem] text-[#855300]">— Entrevista a Delegada Ecológica</span>
+</div>
+<div class="p-space-sm bg-surface-container-low rounded-lg">
+<p class="font-body-sm text-body-sm text-on-surface"><strong>Conducta de apilamiento:</strong> Dejan bandejas sobre las bancas metálicas al sonar la campana porque el trayecto al contenedor queda fuera de su camino al aula.</p>
+</div>
+<div class="p-space-sm bg-surface-container-low rounded-lg">
+<p class="font-body-sm text-body-sm text-on-surface">Hacen uso de jardineras secas como ceniceros clandestinos o escondites para envoltorios plásticos.</p>
+</div>
+</div>
+</div>
+<!-- Bottom Split: ESFUERZOS Y FRUSTRACIONES vs NECESIDADES Y DESEOS -->
+<div class="map-card md:col-span-6 bg-error-container/40 p-space-lg rounded-xl shadow-sm" data-category="pains">
+<div class="flex items-center gap-space-xs mb-space-sm">
+<span class="material-symbols-outlined text-error text-[1.5rem]">sentiment_dissatisfied</span>
+<h3 class="font-headline-sm text-headline-sm text-error">Esfuerzos y Frustraciones (Pain Points)</h3>
+</div>
+<ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface">
+<li class="flex items-start gap-space-xs bg-surface-container-lowest p-space-xs rounded">
+<span class="material-symbols-outlined text-error text-[1.125rem] shrink-0 mt-0.5">priority_high</span>
+<span><strong>Falta de pertenencia:</strong> <em>"Nadie cuida lo que siente ajeno o institucionalmente hostil."</em></span>
+</li>
+<li class="flex items-start gap-space-xs bg-surface-container-lowest p-space-xs rounded">
+<span class="material-symbols-outlined text-error text-[1.125rem] shrink-0 mt-0.5">priority_high</span>
+<span><strong>Sanción ineficaz:</strong> El enfoque punitivo genera apatía e ironía en lugar de cambio cívico.</span>
+</li>
+<li class="flex items-start gap-space-xs bg-surface-container-lowest p-space-xs rounded">
+<span class="material-symbols-outlined text-error text-[1.125rem] shrink-0 mt-0.5">priority_high</span>
+<span><strong>Sobrecarga del personal auxiliar:</strong> 4 auxiliares deben cubrir 1.200 m² en solo 20 minutos de receso.</span>
+</li>
+</ul>
+</div>
+<div class="map-card md:col-span-6 bg-primary-fixed/30 p-space-lg rounded-xl shadow-sm" data-category="needs">
+<div class="flex items-center gap-space-xs mb-space-sm">
+<span class="material-symbols-outlined text-primary text-[1.5rem]">emoji_objects</span>
+<h3 class="font-headline-sm text-headline-sm text-on-primary-fixed-variant">Necesidades y Deseos Reales</h3>
+</div>
+<ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface">
+<li class="flex items-start gap-space-xs bg-surface-container-lowest p-space-xs rounded">
+<span class="material-symbols-outlined text-primary text-[1.125rem] shrink-0 mt-0.5">eco</span>
+<span><strong>Espacios de pausa confortables:</strong> Bancas con sombra, vegetación nativa y puntos de descanso dignos.</span>
+</li>
+<li class="flex items-start gap-space-xs bg-surface-container-lowest p-space-xs rounded">
+<span class="material-symbols-outlined text-primary text-[1.125rem] shrink-0 mt-0.5">eco</span>
+<span><strong>Puntos limpios lúdicos e intuitivos:</strong> Reemplazo de baldes negros por islas de clasificación con retroalimentación visual.</span>
+</li>
+<li class="flex items-start gap-space-xs bg-surface-container-lowest p-space-xs rounded">
+<span class="material-symbols-outlined text-primary text-[1.125rem] shrink-0 mt-0.5">eco</span>
+<span><strong>Reconocimiento mutuo:</strong> Humanizar la relación entre el alumnado y el personal que mantiene el colegio.</span>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- Section 3: Safari de Observación Fotográfico / Cuaderno de Campo -->
+<section class="mb-space-3xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-lg">
+<div>
+<span class="font-code-mono text-code-mono text-primary uppercase font-bold tracking-wider">// 03. Cuaderno de Campo Visual</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Safari Fotográfico: Diagnóstico de "Puntos Ciegos"</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+          Lugares donde la vigilancia docente decae y el diseño físico estimula el abandono o la degradación sistemática.
+        </p>
+</div>
+<div class="flex items-center gap-space-xs text-secondary font-code-mono text-code-mono bg-surface-container-lowest px-space-md py-space-xs rounded-full">
+<span class="material-symbols-outlined text-[1rem]">camera_enhance</span>
+<span>REGISTRO GEORREFERENCIADO SAN FERNANDO</span>
+</div>
+</div>
+<!-- 3 Photographic Evidence Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Punto Ciego 1: Gradas del Polideportivo -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col group hover:shadow-md transition-all">
+<div class="relative h-56 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Bleachers in an educational gymnasium covered in leftover plastic bottles, empty snack bags, and crumpled paper after a student recess break. Architectural lighting highlighting neglected concrete tiers and forgotten spaces." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzy283SDxGG1lx_ELMwTSfHSxNi_EAkI5zhM_n0ymH5i7aJs1e6wM5SeS9waDgEk2a1mpduoi6tdMeWGxJYhxXitLv9TOL0i6yLOxidTyg1loAwl1iVWurpBCo_g1LMTgMCDnhn5Zbt7GQ0f9C6cQdkwgDXRYApiOa5DIKKt9KNDUJnz5DOw_3-KmJ6Fd2J3XOXTLHav184BdE0CoMZPe8q1TEz88Rwp-doOPaxxmyoBuBrupPIRD3yQ"/>
+<span class="absolute top-space-xs left-space-xs px-space-xs py-0.5 bg-on-surface/80 text-surface backdrop-blur-md rounded font-code-mono text-[0.6875rem]">
+            PUNTO C-01 // COORD: GR-POLI
+          </span>
+<span class="absolute bottom-space-xs right-space-xs px-space-xs py-0.5 bg-error text-on-error font-label-md text-[0.625rem] rounded-full uppercase">
+            Riesgo Crítico
+          </span>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xxs">Gradas Superiores del Gimnasio</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">
+              Al no contar con contenedores en los accesos superiores, los estudiantes abandonan residuos bajo las gradas de madera. En 3 días registramos más de 180 envases PET descartados.
+            </p>
+</div>
+<div class="pt-space-xs border-t-0 bg-surface-container-low p-space-xs rounded text-on-surface-variant font-code-mono text-[0.75rem]">
+<span class="text-tertiary font-bold">Hallazgo:</span> La lejanía del basurero más cercano (48 metros) desincentiva el desecho responsable.
+          </div>
+</div>
+</div>
+<!-- Punto Ciego 2: Baños Pabellón B -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col group hover:shadow-md transition-all">
+<div class="relative h-56 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Interior of an old secondary school restroom showing cracked handwashing tiles, broken soap dispenser, and graffiti on stall doors expressing student dissatisfaction and environmental abandonment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDX7EuSkaxFt6YT9OCYpfyXX3ME5vyfKAdPcs4bRQxdURMsE-ShFonOvh97YtaqiFejRcmQAgBW3Bsmyrpem5ReBAvBWLJDoYetON7fHLzfanbrdIhJEqD14vy0Ek2hDg94A6LJszvFovPs-iXifUBJeAzb4LNxM8kr0QVyzhaOmfeMfteQJN2ZODuxZe9Zyp8jntXxDxi8BQ-0w5Hw84yHutUcWNi-CTfPQHrcB7o4n3JViPE1ThQiyQ"/>
+<span class="absolute top-space-xs left-space-xs px-space-xs py-0.5 bg-on-surface/80 text-surface backdrop-blur-md rounded font-code-mono text-[0.6875rem]">
+            PUNTO C-02 // COORD: BÑ-PAB-B
+          </span>
+<span class="absolute bottom-space-xs right-space-xs px-space-xs py-0.5 bg-tertiary-container text-on-tertiary-container font-label-md text-[0.625rem] rounded-full uppercase">
+            Higiene y Convivencia
+          </span>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xxs">Batería de Sanitarios Pabellón B</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">
+              Dispensadores de jabón inoperativos y espejos rayados generan sensación de hostilidad y descuido. El 78% de las entrevistadas admitió evitar entrar durante toda la jornada escolar.
+            </p>
+</div>
+<div class="pt-space-xs border-t-0 bg-surface-container-low p-space-xs rounded text-on-surface-variant font-code-mono text-[0.75rem]">
+<span class="text-tertiary font-bold">Hallazgo:</span> Efecto "Ventana Rota": un baño deteriorado invita a descuidos aún más graves.
+          </div>
+</div>
+</div>
+<!-- Punto Ciego 3: Jardines Perimetrales -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col group hover:shadow-md transition-all">
+<div class="relative h-56 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Dry perimeter garden border in a school yard with trampled barren soil, yellowing dead shrubs, and small plastic candy wrappings caught between chain link fences in direct sunlight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRWRTbadWZQ6CRURKJ07EI5ozRniDseCD5H3kUJOFCuRRXch9VUtp_8EqTy5KkM7gkqHkamsT_4ti15QioIsLJ0dQiVWyCfYyu-1YEkVLjBIKP5qP0BWZVHSENgc1w2mwK5sfmKQz5NsaXp_QSBvRiTNMwXhpYamHl5aG8H-Qe7m4-yZZEVbcfS1HUREUNRPcvwIny3CibK6tg3Rt7fN_-zVGxJwi2VrZVyzX8rkoBWLE2Oy08YAlNeA"/>
+<span class="absolute top-space-xs left-space-xs px-space-xs py-0.5 bg-on-surface/80 text-surface backdrop-blur-md rounded font-code-mono text-[0.6875rem]">
+            PUNTO C-03 // COORD: JD-PERIM
+          </span>
+<span class="absolute bottom-space-xs right-space-xs px-space-xs py-0.5 bg-primary text-on-primary font-label-md text-[0.625rem] rounded-full uppercase">
+            Potencial Regenerativo
+          </span>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xxs">Franja Verde Perimetral Sur</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">
+              Un área de 200 m² de tierra compactada sin sombra ni riego regular. Es utilizada como botadero informal oculto tras los quioscos móviles de alimentación.
+            </p>
+</div>
+<div class="pt-space-xs border-t-0 bg-surface-container-low p-space-xs rounded text-on-surface-variant font-code-mono text-[0.75rem]">
+<span class="text-primary font-bold">Oportunidad:</span> Espacio idóneo para el prototipado de bancas vivas y huerto colaborativo.
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: Voces de la Comunidad Educativa (Citas Reales) -->
+<section class="mb-space-2xl">
+<div class="flex flex-col mb-space-lg">
+<span class="font-code-mono text-code-mono text-primary uppercase font-bold tracking-wider">// 04. Aprendizajes Emocionales</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Voces del Territorio: Citas Textuales Reales</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+        Las palabras de quienes habitan la escuela revelan que el problema de la basura no es falta de normas, sino quiebre de empatía comunitaria.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<!-- Quote Card 1: Personal de Limpieza -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-sm relative flex flex-col justify-between overflow-hidden">
+<div class="absolute -right-4 -bottom-4 text-surface-container text-opacity-80 select-none pointer-events-none">
+<span class="material-symbols-outlined text-[10rem] leading-none opacity-20">format_quote</span>
+</div>
+<div class="relative z-10">
+<div class="flex items-center gap-space-xs mb-space-md">
+<span class="px-space-xs py-0.5 rounded-full bg-secondary text-on-secondary font-label-md text-label-md">Auxiliar de Aseo</span>
+<span class="font-code-mono text-code-mono text-outline">Entrevista #12</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface italic mb-space-md leading-relaxed">
+            "A veces sentimos que somos invisibles para los muchachos. Pasan al lado de una lata en el piso y esperan que una se agache frente a ellos. No es cansancio del cuerpo; es la pena de sentir que no nos ven como sus iguales en esta comunidad."
+          </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-md border-t-0 bg-surface-container-low/50 p-space-sm rounded-lg relative z-10">
+<div class="w-10 h-10 rounded-full bg-secondary-container text-on-secondary-fixed flex items-center justify-center font-bold">
+            DM
+          </div>
+<div>
+<h4 class="font-headline-sm text-[1rem] text-on-surface">Sra. Donata Morales</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Auxiliar de Servicios Generales (14 años en el colegio)</p>
+</div>
+</div>
+</div>
+<!-- Quote Card 2: Estudiante de Secundaria -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-sm relative flex flex-col justify-between overflow-hidden">
+<div class="absolute -right-4 -bottom-4 text-surface-container text-opacity-80 select-none pointer-events-none">
+<span class="material-symbols-outlined text-[10rem] leading-none opacity-20">format_quote</span>
+</div>
+<div class="relative z-10">
+<div class="flex items-center gap-space-xs mb-space-md">
+<span class="px-space-xs py-0.5 rounded-full bg-primary text-on-primary font-label-md text-label-md">Estudiante</span>
+<span class="font-code-mono text-code-mono text-outline">Entrevista #27</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface italic mb-space-md leading-relaxed">
+            "No tiramos las cosas por maldad, sino porque el patio no te invita a quedarte ni a cuidarlo. Son puras canchas de fútbol para los de siempre y el resto nos sentamos en el suelo helado. Da la sensación de que a nadie le importa este lugar."
+          </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-md border-t-0 bg-surface-container-low/50 p-space-sm rounded-lg relative z-10">
+<div class="w-10 h-10 rounded-full bg-primary-fixed text-on-primary-fixed flex items-center justify-center font-bold">
+            IA
+          </div>
+<div>
+<h4 class="font-headline-sm text-[1rem] text-on-surface">Ignacio Arancibia (16 años)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Estudiante de 9° B</p>
+</div>
+</div>
+</div>
+<!-- Quote Card 3: Docente de Patio -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-sm relative flex flex-col justify-between overflow-hidden">
+<div class="absolute -right-4 -bottom-4 text-surface-container text-opacity-80 select-none pointer-events-none">
+<span class="material-symbols-outlined text-[10rem] leading-none opacity-20">format_quote</span>
+</div>
+<div class="relative z-10">
+<div class="flex items-center gap-space-xs mb-space-md">
+<span class="px-space-xs py-0.5 rounded-full bg-tertiary text-on-tertiary font-label-md text-label-md">Docente Inspector</span>
+<span class="font-code-mono text-code-mono text-outline">Entrevista #04</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface italic mb-space-md leading-relaxed">
+            "El silbato y la anotación negativa perdieron todo efecto hace años. Cuando un estudiante no siente suya la mesa de ping-pong o el macetero, cuidarlo parece una tarea impuesta por la autoridad y no una muestra de respeto mutuo."
+          </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-md border-t-0 bg-surface-container-low/50 p-space-sm rounded-lg relative z-10">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center font-bold">
+            CR
+          </div>
+<div>
+<h4 class="font-headline-sm text-[1rem] text-on-surface">Prof. Carlos Retamales</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Profesor de Historia e Inspector de Patio</p>
+</div>
+</div>
+</div>
+<!-- Quote Card 4: Delegada de Centro de Alumnos -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-sm relative flex flex-col justify-between overflow-hidden">
+<div class="absolute -right-4 -bottom-4 text-surface-container text-opacity-80 select-none pointer-events-none">
+<span class="material-symbols-outlined text-[10rem] leading-none opacity-20">format_quote</span>
+</div>
+<div class="relative z-10">
+<div class="flex items-center gap-space-xs mb-space-md">
+<span class="px-space-xs py-0.5 rounded-full bg-on-secondary-fixed text-surface-lowest font-label-md text-label-md" style="color: white;">Representante Estudiantil</span>
+<span class="font-code-mono text-code-mono text-outline">Entrevista #31</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface italic mb-space-md leading-relaxed">
+            "Queremos cambiar esto pero con nuestras propias manos, no con afiches que manda dirección. Si construimos nosotros mismos las zonas de descanso y las pintamos, nadie se atreverá a romperlas ni a botar basura encima."
+          </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-md border-t-0 bg-surface-container-low/50 p-space-sm rounded-lg relative z-10">
+<div class="w-10 h-10 rounded-full bg-surface-container-high text-on-surface flex items-center justify-center font-bold">
+            MS
+          </div>
+<div>
+<h4 class="font-headline-sm text-[1rem] text-on-surface">Martina Santander (17 años)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Presidenta Centro de Estudiantes (CCEE)</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 5: Síntesis de Insights para Fase 2 -->
+<section class="bg-surface-container-lowest p-space-xl rounded-xl shadow-md flex flex-col md:flex-row items-center justify-between gap-space-xl">
+<div class="space-y-space-xs max-w-2xl">
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded-full bg-primary animate-pulse"></span>
+<span class="font-code-mono text-code-mono text-primary font-bold uppercase">Transición Metodológica</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">De la Escucha Empática a la Definición del Problema</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        Con 35 entrevistas transcritas, 14 fichas de observación no participante y 3 puntos ciegos diagnosticados, el equipo cuenta con la masa crítica para redactar los <strong>Puntos de Vista (POV)</strong> y los desafíos <strong>¿Cómo Podríamos...? (HMW)</strong> en la Fase 2.
+      </p>
+</div>
+<div class="shrink-0 flex flex-col sm:flex-row gap-space-sm w-full md:w-auto">
+<button class="inline-flex items-center justify-center px-space-lg py-space-sm rounded-full bg-surface-container text-on-surface font-label-lg hover:bg-surface-container-high transition-colors" type="button">
+<span class="material-symbols-outlined mr-space-xs text-[1.25rem]">assignment</span>
+        Descargar Matriz Cruda
+      </button>
+<a class="inline-flex items-center justify-center px-space-xl py-space-sm rounded-full bg-primary text-on-primary font-label-lg hover:bg-primary/90 transition-all shadow-sm" data-path="fase-2-definir" href="../fase_2_definir/code.html">
+<span>Ir a Fase 2: Definir</span>
+<span class="material-symbols-outlined ml-space-xs text-[1.25rem]">arrow_forward</span>
+</a>
+</div>
+</section>
+</div>
+<!-- Inline JavaScript for Empathy Map Interactive Filtering -->
+<script>
+  function filterMap(mode) {
+    const cards = document.querySelectorAll('.map-card');
+    const btnAll = document.getElementById('btn-all');
+    const btnPains = document.getElementById('btn-pains');
+    const btnNeeds = document.getElementById('btn-needs');
+
+    // Reset button states
+    [btnAll, btnPains, btnNeeds].forEach(btn => {
+      btn.className = 'px-space-md py-1.5 rounded-full hover:text-on-surface transition-all text-on-surface-variant';
+    });
+
+    if (mode === 'all') {
+      btnAll.className = 'px-space-md py-1.5 rounded-full bg-primary text-on-primary font-bold transition-all shadow-sm';
+      cards.forEach(card => card.classList.remove('hidden'));
+    } else if (mode === 'pains') {
+      btnPains.className = 'px-space-md py-1.5 rounded-full bg-error text-on-error font-bold transition-all shadow-sm';
+      cards.forEach(card => {
+        if (card.getAttribute('data-category') === 'pains') {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    } else if (mode === 'needs') {
+      btnNeeds.className = 'px-space-md py-1.5 rounded-full bg-primary-container text-on-primary-container font-bold transition-all shadow-sm';
+      cards.forEach(card => {
+        if (card.getAttribute('data-category') === 'needs') {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    }
+  }
+</script></div></main><footer class="w-full bg-surface-container-lowest shadow-[0_-1px_6px_rgba(0,0,0,0.02)] pt-space-2xl pb-space-xl"><div class="max-w-container-max mx-auto px-gutter-desktop grid grid-cols-1 md:grid-cols-4 gap-space-xl"><div class="md:col-span-2 flex flex-col gap-space-sm"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm text-on-surface">Colegio San Fernando</span><span class="px-space-xs py-space-xxs rounded-full bg-surface-container text-on-surface-variant font-label-md text-[0.6875rem]">Acreditación MinEduc</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-lg">Proyecto Design Thinking: Regeneración y Cuidado de Espacios Comunes. Laboratorio de co-diseño escolar para la transformación ecológica y la convivencia comunitaria.</p><div class="flex items-center gap-space-xs text-on-surface-variant font-code-mono text-code-mono"><span class="material-symbols-outlined text-[1rem] text-primary">school</span><span>Promoción 2026 · Curso 9° Medio B · Área de Ciencias y Ciudadanía</span></div></div><div class="flex flex-col gap-space-xs"><h4 class="font-headline-sm text-[1rem] text-on-surface mb-space-xs">Equipo de Co-Diseño</h4><ul class="space-y-space-xxs font-body-sm text-body-sm text-on-surface-variant"><li>Sofía Valenzuela (Líder de Investigación)</li><li>Mateo Carrasco (Documentación Visual)</li><li>Valentina Ríos (Prototipado Espacial)</li><li>Lucas Henríquez (Facilitación y Pruebas)</li><li>Prof. Andrés Morales (Tutor Pedagógico)</li></ul></div><div class="flex flex-col gap-space-xs"><h4 class="font-headline-sm text-[1rem] text-on-surface mb-space-xs">Recursos Didácticos</h4><ul class="space-y-space-xxs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors flex items-center gap-space-xxs" href="#"><span class="material-symbols-outlined text-[1rem]">attach_file</span>Guía Docente Metodológica</a></li><li><a class="hover:text-primary transition-colors flex items-center gap-space-xxs" href="#"><span class="material-symbols-outlined text-[1rem]">description</span>Plantillas de Empatía y Mapeo</a></li><li><a class="hover:text-primary transition-colors flex items-center gap-space-xxs" href="#"><span class="material-symbols-outlined text-[1rem]">photo_library</span>Registro Fotográfico Abierto</a></li><li><a class="hover:text-primary transition-colors flex items-center gap-space-xxs" href="#"><span class="material-symbols-outlined text-[1rem]">analytics</span>Matriz de Impacto Comunitario</a></li></ul></div></div><div class="max-w-container-max mx-auto px-gutter-desktop mt-space-xl pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-surface-variant font-body-sm text-body-sm"><p>© 2026 Colegio San Fernando · Licencia Creative Commons Atribución-CompartirIgual 4.0</p><p class="font-code-mono text-code-mono text-outline">San Fernando Co-Lab v1.4 // Documentación Abierta</p></div></footer></body></html>

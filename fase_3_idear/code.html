@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;800&amp;family=Lexend:wght@400;600&amp;family=JetBrains+Mono:wght@400&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}nav a:hover{background-color: #006C49; cursor: pointer;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"error":"#ba1a1a","error-container":"#ffdad6","inverse-on-surface":"#eaf1ff","primary-container":"#10b981","on-surface":"#0b1c30","on-secondary-fixed-variant":"#3f465c","inverse-surface":"#213145","surface-variant":"#d3e4fe","primary-fixed":"#6ffbbe","primary-fixed-dim":"#4edea3","primary":"#006c49","on-surface-variant":"#3c4a42","surface":"#f8f9ff","on-secondary-container":"#5c647a","surface-container":"#e5eeff","on-primary-container":"#00422b","surface-container-low":"#eff4ff","on-primary-fixed":"#002113","background":"#f8f9ff","on-primary":"#ffffff","on-tertiary-container":"#523200","on-background":"#0b1c30","outline-variant":"#bbcabf","on-tertiary-fixed-variant":"#653e00","on-secondary-fixed":"#131b2e","inverse-primary":"#4edea3","tertiary-fixed":"#ffddb8","on-tertiary-fixed":"#2a1700","on-primary-fixed-variant":"#005236","outline":"#6c7a71","secondary-container":"#dae2fd","surface-container-lowest":"#ffffff","tertiary-container":"#e29100","on-secondary":"#ffffff","tertiary":"#855300","on-error":"#ffffff","surface-dim":"#cbdbf5","secondary-fixed":"#dae2fd","secondary":"#565e74","surface-tint":"#006c49","on-tertiary":"#ffffff","on-error-container":"#93000a","surface-container-high":"#dce9ff","surface-bright":"#f8f9ff","tertiary-fixed-dim":"#ffb95f","surface-container-highest":"#d3e4fe","secondary-fixed-dim":"#bec6e0"},"borderRadius":{"DEFAULT":"1rem","lg":"2rem","xl":"3rem","full":"9999px"},"spacing":{"space-4xl":"6rem","space-xxs":"0.25rem","space-2xl":"3rem","container-max":"76rem","gutter-mobile":"1rem","space-md":"1rem","space-sm":"0.75rem","gutter-desktop":"1.5rem","space-lg":"1.5rem","space-xl":"2rem","space-xs":"0.5rem","space-3xl":"4.5rem"},"fontFamily":{"label-lg":["Lexend"],"body-md":["Lexend"],"label-md":["Lexend"],"headline-lg":["Bricolage Grotesque"],"display-hero":["Bricolage Grotesque"],"code-mono":["JetBrains Mono"],"headline-sm":["Bricolage Grotesque"],"headline-md":["Bricolage Grotesque"],"body-sm":["Lexend"],"display-hero-mobile":["Bricolage Grotesque"],"headline-lg-mobile":["Bricolage Grotesque"],"body-lg":["Lexend"]},"fontSize":{"label-lg":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.02em","fontWeight":"600"}],"body-md":["1rem",{"lineHeight":"1.625rem","fontWeight":"400"}],"label-md":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.05em","fontWeight":"600"}],"headline-lg":["2.5rem",{"lineHeight":"2.875rem","letterSpacing":"-0.02em","fontWeight":"700"}],"display-hero":["3.5rem",{"lineHeight":"3.75rem","letterSpacing":"-0.03em","fontWeight":"800"}],"code-mono":["0.8125rem",{"lineHeight":"1.25rem","fontWeight":"400"}],"headline-sm":["1.25rem",{"lineHeight":"1.625rem","fontWeight":"600"}],"headline-md":["1.75rem",{"lineHeight":"2.125rem","letterSpacing":"-0.01em","fontWeight":"700"}],"body-sm":["0.875rem",{"lineHeight":"1.375rem","fontWeight":"400"}],"display-hero-mobile":["2.25rem",{"lineHeight":"2.5rem","letterSpacing":"-0.02em","fontWeight":"800"}],"headline-lg-mobile":["1.75rem",{"lineHeight":"2.125rem","letterSpacing":"-0.01em","fontWeight":"700"}],"body-lg":["1.125rem",{"lineHeight":"1.875rem","fontWeight":"400"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-container-max mx-auto px-gutter-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Logo San Fernando Design Thinking" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAgpk7NiSyJCFvNd6WLimO11rDyHHE9PNTVnDUHUEt64-_vdz2AwP5rIRXKLyteVP8a0XLdwPHB7zJARPszPxLvPcmcTwwpEq7swC4RIKAf0Z3Lc9gQ5rfNKll8h9m7sgZobsyDCkP9-onkcbXm0U8DYEUFuZOIHEguM8vuf5tGyVA9SXV_FagjrMbBpAG5Kcu0RDGjdTyj0gD2ezoDbWbkM5FGq4gkHEkibB9uS3mMJBeKvomTr3U0Q"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface leading-tight">San Fernando Co-Lab</span><span class="font-label-md text-label-md text-primary tracking-wide">Design Thinking</span></div></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-label-lg rounded-full px-space-sm py-space-xxs"><a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface transition-colors" data-path="vision-general" href="../san_fernando_co_lab_design_thinking_flow/code.html">Visión General</a><a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface transition-colors" data-path="fase-1-empatizar" href="../fase_1_empatizar/code.html">Fase 1: Empatizar</a><a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface transition-colors" data-path="fase-2-definir" href="../fase_2_definir/code.html">Fase 2: Definir</a><a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface transition-colors" data-path="fase-3-idear" href="../fase_3_idear/code.html">Fase 3: Idear</a><a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface transition-colors" data-path="fase-4-prototipar" href="../fase_4_prototipar/code.html">Fase 4: Prototipar</a><a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface transition-colors" data-path="fase-5-testear" href="../fase_5_testear/code.html">Fase 5: Testear</a><a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface transition-colors" data-path="video_pitch" href="../video_pitch/code.html">Video Pitch</a></nav><div class="flex items-center gap-space-md"><button class="hidden sm:inline-flex items-center justify-center px-space-md py-space-xs rounded-full bg-primary text-on-primary font-label-lg text-label-lg hover:bg-primary/90 transition-all shadow-sm" type="button"><span class="material-symbols-outlined text-[1.125rem] mr-space-xs">download</span>Descargar Memoria PDF</button><div class="flex items-center gap-space-xs bg-surface-container-low px-space-xs py-space-xxs rounded-full"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAb3Bv5jHPQx2P-7pmZKklCTzXCBRwH8Xt9DLxUxqnjsFIrOVedBnGjv0wwJsrtWojx677MjBq8Aul-brOw10tKdeC1KTe7gPJp9bayw6hwAFp1BgUaqDSFEM3PD72H8uBS6JpqaoP-H4inlgzMZIR2hsBgeF-zxJZ3Mi8hOr8BEboGWEvHGQUP7RF7QIydehyhVd-ZRRwcznHLeT5G2P-GNpjF8yMKxlyVqYL3hoDL6yveRX3aq59y0Q"/><div class="hidden md:flex flex-col pr-space-xs text-left"><span class="font-label-md text-label-md text-on-surface leading-tight">Prof. Facilitador</span><span class="font-label-md text-label-md text-on-surface-variant text-[0.6875rem] leading-none">Equipo 4B</span></div></div></div></div><div class="w-full bg-surface-container-low/70 py-space-xxs"><div class="max-w-container-max mx-auto px-gutter-desktop flex items-center justify-between overflow-x-auto gap-space-md"><div class="flex items-center gap-space-xs"><span class="w-5 h-5 rounded-full bg-surface-container text-on-surface-variant flex items-center justify-center font-label-md text-[0.625rem]">1</span><span class="font-label-md text-label-md text-on-surface-variant whitespace-nowrap">Empatizar</span></div><div class="h-0.5 flex-1 min-w-8 bg-outline-variant/40 rounded-full"></div><div class="flex items-center gap-space-xs"><span class="w-5 h-5 rounded-full bg-surface-container text-on-surface-variant flex items-center justify-center font-label-md text-[0.625rem]">2</span><span class="font-label-md text-label-md text-on-surface-variant whitespace-nowrap">Definir</span></div><div class="h-0.5 flex-1 min-w-8 bg-outline-variant/40 rounded-full"></div><div class="flex items-center gap-space-xs"><span class="w-5 h-5 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-md text-[0.625rem]">3</span><span class="font-label-md text-label-md text-on-surface whitespace-nowrap">Idear</span></div><div class="h-0.5 flex-1 min-w-8 bg-outline-variant/40 rounded-full"></div><div class="flex items-center gap-space-xs"><span class="w-5 h-5 rounded-full bg-surface-container text-on-surface-variant flex items-center justify-center font-label-md text-[0.625rem]">4</span><span class="font-label-md text-label-md text-on-surface-variant whitespace-nowrap">Prototipar</span></div><div class="h-0.5 flex-1 min-w-8 bg-outline-variant/40 rounded-full"></div><div class="flex items-center gap-space-xs"><span class="w-5 h-5 rounded-full bg-surface-container text-on-surface-variant flex items-center justify-center font-label-md text-[0.625rem]">5</span><span class="font-label-md text-label-md text-on-surface-variant whitespace-nowrap">Testear</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="max-w-container-max mx-auto px-gutter-desktop py-space-xl"><div class="flex flex-col w-full">
+<div class="relative overflow-hidden rounded-lg bg-surface-container-low p-space-lg lg:p-space-2xl shadow-sm mb-space-3xl">
+<div class="absolute -right-16 -top-16 w-80 h-80 rounded-full bg-primary/10 blur-3xl pointer-events-none"></div>
+<div class="absolute right-1/3 -bottom-20 w-72 h-72 rounded-full bg-tertiary-container/15 blur-3xl pointer-events-none"></div>
+<div class="relative flex flex-col lg:flex-row lg:items-end justify-between gap-space-xl">
+<div class="max-w-3xl">
+<div class="flex flex-wrap items-center gap-space-xs mb-space-sm">
+<span class="px-space-sm py-space-xxs rounded-full bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider">Fase Metodológica 03</span>
+<span class="px-space-sm py-space-xxs rounded-full bg-surface-container-highest text-on-surface-variant font-code-mono text-code-mono">9° Medio B · 142 Estudiantes + 8 Docentes</span>
+<span class="px-space-sm py-space-xxs rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md flex items-center gap-1">
+<span class="material-symbols-outlined text-[1rem]">lightbulb</span>
+            48 Ideas Iniciales
+          </span>
+</div>
+<h1 class="font-headline-lg text-headline-lg lg:text-display-hero text-on-surface tracking-tight leading-none mb-space-sm">
+          Fase 3: Idear — <span class="text-primary italic">Creatividad Colectiva</span> sin Límites
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed max-w-2xl">
+          Superando los bloqueos del patio gris: desplegamos técnicas de divergencia extrema (Crazy 8's, Worst Possible Idea y SCAMPER) para transformar la crisis de residuos y desafección escolar en catalizadores de convivencia viva.
+        </p>
+</div>
+<div class="flex flex-row lg:flex-col items-center lg:items-end justify-between gap-space-md bg-surface-container-lowest/90 backdrop-blur-md p-space-md rounded-DEFAULT shadow-sm">
+<div class="text-left lg:text-right">
+<span class="block font-label-md text-label-md text-on-surface-variant uppercase">Estatus de Fase</span>
+<span class="inline-flex items-center gap-1 font-headline-sm text-headline-sm text-primary">
+<span class="material-symbols-outlined text-primary">verified</span>
+            Convergencia Lograda
+          </span>
+</div>
+<div class="flex items-center gap-2">
+<button class="px-space-md py-space-xs rounded-full bg-on-surface text-surface font-label-lg text-label-lg hover:bg-on-surface/90 transition-all flex items-center gap-1.5 shadow-sm" id="toggleFilterBtn" type="button">
+<span class="material-symbols-outlined text-[1rem]">filter_alt</span>
+            Filtrar Ideas Post-it
+          </button>
+</div>
+</div>
+</div>
+</div>
+<section class="mb-space-3xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-lg">
+<div>
+<div class="flex items-center gap-2 text-primary font-code-mono text-code-mono mb-1">
+<span class="material-symbols-outlined text-[1.125rem]">draw</span>
+<span>DIVERGENCIA ACELERADA // PROTOCOLO CRAZY 8s</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">1. Lluvia de Ideas y Muro Táctil de Ideación</h2>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container px-space-sm py-space-xxs rounded-full">
+<span class="font-label-md text-label-md text-on-surface-variant">Filtro temático:</span>
+<button class="tag-filter-btn px-space-xs py-0.5 rounded-full bg-primary text-on-primary font-label-md text-[0.6875rem]" data-tag="all">Todas (48)</button>
+<button class="tag-filter-btn px-space-xs py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant font-label-md text-[0.6875rem] hover:bg-surface-container-high" data-tag="arte">Arte &amp; Murales</button>
+<button class="tag-filter-btn px-space-xs py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant font-label-md text-[0.6875rem] hover:bg-surface-container-high" data-tag="juego">Juegos &amp; Deporte</button>
+<button class="tag-filter-btn px-space-xs py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant font-label-md text-[0.6875rem] hover:bg-surface-container-high" data-tag="eco">Puntos Limpios</button>
+<button class="tag-filter-btn px-space-xs py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant font-label-md text-[0.6875rem] hover:bg-surface-container-high" data-tag="social">Gamificación</button>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<div class="lg:col-span-4 flex flex-col gap-space-md">
+<div class="bg-surface-container-lowest p-space-lg rounded-DEFAULT shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface">Mecánica del Sprint</span>
+<span class="font-code-mono text-code-mono px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant">8 min x 8 bocetos</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Cada mesa de co-creación dobló un pliego en 8 cuadrantes. Sin juzgar factibilidad en el primer minuto, alumnos de básica y media propusieron intervenciones para los 4 patios centrales del Colegio San Fernando.
+          </p>
+<div class="rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-44 object-cover" data-alt="High school and middle school students collaborating over large butcher paper filled with sticky notes and sketches inside a bright sunlit school library. Authentic design thinking workshop scene with natural daylight, green accents, handwritten markers, and genuine smiles." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJPlFDp_myKsSlEpafC4sc8mXqYGKZwgZnq8yq2jboqvdaiGPj8Xd40le91dePUEgkcyJWxwCHVJPeRWs9ys5J1K8XbY9VDw81kXLl4ybx_SIlhywbkGMdc0_wPLRlvA-iZNeZ2MRqkxNhT30U8tZueeyLDjIv0Ez2gpvzE-hCVzvbZBP7zpJh2z6dwQ3MuRxLDAYVPt9kXcud4q-JhxUGnFZjO2SGAglSYuprPEtf_XnqgHhrBAkwuA"/>
+</div>
+<div class="grid grid-cols-2 gap-space-xs pt-space-xs">
+<div class="bg-surface-container-low p-space-xs rounded-DEFAULT">
+<span class="block font-headline-md text-headline-md text-primary font-bold">48+</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Post-its documentados</span>
+</div>
+<div class="bg-surface-container-low p-space-xs rounded-DEFAULT">
+<span class="block font-headline-md text-headline-md text-tertiary font-bold">12 min</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Tiempo promedio Crazy 8</span>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-high p-space-md rounded-DEFAULT flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[1.5rem] mt-0.5">tips_and_updates</span>
+<div>
+<h4 class="font-headline-sm text-[0.9375rem] text-on-surface">Insight Clave de Divergencia</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              "Los estudiantes no rechazan botar la basura; rechazan los basureros grises invisibles y la falta de pertenencia con el muro perimetral."
+            </p>
+<span class="block font-label-md text-[0.6875rem] text-outline mt-1">— Sofía V. (Equipo Líder de Investigación)</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-8 bg-surface-container-lowest p-space-lg rounded-DEFAULT shadow-sm">
+<div class="flex items-center justify-between mb-space-md pb-space-xs">
+<span class="font-label-lg text-label-lg text-on-surface">Mural de Post-its Digitalizados (Muestra Representativa)</span>
+<span class="font-code-mono text-code-mono text-outline">Interactúa haciendo clic para marcar votos</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-space-md" id="stickyNotesContainer">
+<div class="sticky-note bg-[#fef9c3] text-on-surface p-space-md rounded-DEFAULT shadow-sm rotate-[-1deg] hover:rotate-0 transition-transform cursor-pointer flex flex-col justify-between min-h-[170px]" data-category="arte">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-lowest/80 font-code-mono text-[0.625rem] font-semibold uppercase text-tertiary">Arte &amp; Murales</span>
+<span class="material-symbols-outlined text-[1rem] text-tertiary-container">push_pin</span>
+</div>
+<p class="font-headline-sm text-[0.95rem] leading-snug font-bold mb-1">Murales Botella-Tapa Colaborativos</p>
+<p class="font-body-sm text-[0.8125rem] text-on-surface-variant leading-tight">Revestir el muro ciego del patio 2 con mosaicos gigantes usando tapas plásticas clasificadas por color.</p>
+</div>
+<div class="flex items-center justify-between pt-3 mt-2">
+<span class="font-label-md text-[0.6875rem] text-outline">Idea #07 · 7° Medio A</span>
+<span class="px-2 py-0.5 rounded-full bg-primary/15 text-primary font-code-mono text-[0.6875rem] font-bold">★ 24 Votos</span>
+</div>
+</div>
+<div class="sticky-note bg-[#dcfce7] text-on-surface p-space-md rounded-DEFAULT shadow-sm rotate-[1.5deg] hover:rotate-0 transition-transform cursor-pointer flex flex-col justify-between min-h-[170px]" data-category="eco">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-lowest/80 font-code-mono text-[0.625rem] font-semibold uppercase text-primary">Puntos Limpios</span>
+<span class="material-symbols-outlined text-[1rem] text-primary">push_pin</span>
+</div>
+<p class="font-headline-sm text-[0.95rem] leading-snug font-bold mb-1">Basureros Encestables Tipo Básquetbol</p>
+<p class="font-body-sm text-[0.8125rem] text-on-surface-variant leading-tight">Canastos con aros lúdicos para latas y botellas con contador sonoro simple al encestar.</p>
+</div>
+<div class="flex items-center justify-between pt-3 mt-2">
+<span class="font-label-md text-[0.6875rem] text-outline">Idea #12 · 8° Básico B</span>
+<span class="px-2 py-0.5 rounded-full bg-primary/15 text-primary font-code-mono text-[0.6875rem] font-bold">★ 31 Votos</span>
+</div>
+</div>
+<div class="sticky-note bg-[#e0f2fe] text-on-surface p-space-md rounded-DEFAULT shadow-sm rotate-[-2deg] hover:rotate-0 transition-transform cursor-pointer flex flex-col justify-between min-h-[170px]" data-category="juego">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-lowest/80 font-code-mono text-[0.625rem] font-semibold uppercase text-secondary">Juegos &amp; Deporte</span>
+<span class="material-symbols-outlined text-[1rem] text-secondary">push_pin</span>
+</div>
+<p class="font-headline-sm text-[0.95rem] leading-snug font-bold mb-1">Mesas de Ping-Pong con Pallets</p>
+<p class="font-body-sm text-[0.8125rem] text-on-surface-variant leading-tight">Estructuras de pallets recuperados con superficie de cemento pulido y red metálica fija.</p>
+</div>
+<div class="flex items-center justify-between pt-3 mt-2">
+<span class="font-label-md text-[0.6875rem] text-outline">Idea #23 · 9° Medio B</span>
+<span class="px-2 py-0.5 rounded-full bg-primary/15 text-primary font-code-mono text-[0.6875rem] font-bold">★ 19 Votos</span>
+</div>
+</div>
+<div class="sticky-note bg-[#fce7f3] text-on-surface p-space-md rounded-DEFAULT shadow-sm rotate-[1deg] hover:rotate-0 transition-transform cursor-pointer flex flex-col justify-between min-h-[170px]" data-category="social">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-lowest/80 font-code-mono text-[0.625rem] font-semibold uppercase text-error">Gamificación</span>
+<span class="material-symbols-outlined text-[1rem] text-error">push_pin</span>
+</div>
+<p class="font-headline-sm text-[0.95rem] leading-snug font-bold mb-1">Liga Inter-Cursos: Guardianes</p>
+<p class="font-body-sm text-[0.8125rem] text-on-surface-variant leading-tight">Torneo quincenal de patio limpio con 'Copa de Madera Reutilizada' y recreos extendidos de premio.</p>
+</div>
+<div class="flex items-center justify-between pt-3 mt-2">
+<span class="font-label-md text-[0.6875rem] text-outline">Idea #34 · Centro Alumnos</span>
+<span class="px-2 py-0.5 rounded-full bg-primary/15 text-primary font-code-mono text-[0.6875rem] font-bold">★ 22 Votos</span>
+</div>
+</div>
+<div class="sticky-note bg-[#fef3c7] text-on-surface p-space-md rounded-DEFAULT shadow-sm rotate-[-1.5deg] hover:rotate-0 transition-transform cursor-pointer flex flex-col justify-between min-h-[170px]" data-category="eco">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-lowest/80 font-code-mono text-[0.625rem] font-semibold uppercase text-tertiary">Eco-Huerto</span>
+<span class="material-symbols-outlined text-[1rem] text-tertiary">push_pin</span>
+</div>
+<p class="font-headline-sm text-[0.95rem] leading-snug font-bold mb-1">Islas de Sombra con Enredaderas</p>
+<p class="font-body-sm text-[0.8125rem] text-on-surface-variant leading-tight">Pérgolas con macetones auto-regantes alimentados con aguas grises del lavamanos.</p>
+</div>
+<div class="flex items-center justify-between pt-3 mt-2">
+<span class="font-label-md text-[0.6875rem] text-outline">Idea #18 · Taller EcoCiencias</span>
+<span class="px-2 py-0.5 rounded-full bg-primary/15 text-primary font-code-mono text-[0.6875rem] font-bold">★ 16 Votos</span>
+</div>
+</div>
+<div class="sticky-note bg-[#ede9fe] text-on-surface p-space-md rounded-DEFAULT shadow-sm rotate-[2deg] hover:rotate-0 transition-transform cursor-pointer flex flex-col justify-between min-h-[170px]" data-category="juego">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-lowest/80 font-code-mono text-[0.625rem] font-semibold uppercase text-primary">Juegos de Piso</span>
+<span class="material-symbols-outlined text-[1rem] text-primary">push_pin</span>
+</div>
+<p class="font-headline-sm text-[0.95rem] leading-snug font-bold mb-1">Ajedrez Gigante y Luches Ópticos</p>
+<p class="font-body-sm text-[0.8125rem] text-on-surface-variant leading-tight">Pintura acrílica de alto tráfico sobre baldosas con tableros de ingenio y circuitos de motricidad.</p>
+</div>
+<div class="flex items-center justify-between pt-3 mt-2">
+<span class="font-label-md text-[0.6875rem] text-outline">Idea #41 · Depto. Ed. Física</span>
+<span class="px-2 py-0.5 rounded-full bg-primary/15 text-primary font-code-mono text-[0.6875rem] font-bold">★ 15 Votos</span>
+</div>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex flex-wrap items-center justify-between gap-space-sm text-on-surface-variant font-code-mono text-[0.75rem]">
+<span class="flex items-center gap-1">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+            Total ideas tamizadas: 48 registradas en matriz Miro y transcripción física.
+          </span>
+<span class="text-primary font-label-lg text-label-md">Mostrando 6 postulaciones destacadas del panel divergente</span>
+</div>
+</div>
+</div>
+</section>
+<section class="mb-space-3xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-lg">
+<div>
+<div class="flex items-center gap-2 text-tertiary-container font-code-mono text-code-mono mb-1">
+<span class="material-symbols-outlined text-[1.125rem]">grid_view</span>
+<span>EVALUACIÓN ESTRATÉGICA // MATRIZ 2x2</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">2. Matriz de Priorización: Impacto vs. Factibilidad</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-md">
+        Cruzamos la capacidad de ejecución estudiantil en 3 semanas escolares versus el impacto tangible en la limpieza y el clima relacional del colegio.
+      </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<div class="lg:col-span-8 bg-surface-container-lowest p-space-lg rounded-DEFAULT shadow-sm relative overflow-hidden">
+<div class="flex items-center justify-between mb-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="px-space-sm py-space-xxs rounded-full bg-primary-container text-on-primary-container font-label-md text-[0.75rem]">Eje Y: Impacto en Convivencia &amp; Aseo</span>
+<span class="px-space-sm py-space-xxs rounded-full bg-secondary-container text-on-secondary-container font-label-md text-[0.75rem]">Eje X: Factibilidad Técnica &amp; Costo</span>
+</div>
+<span class="font-code-mono text-code-mono text-[0.75rem] text-outline">Matriz N=4 Quadrants</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md relative">
+<div class="bg-primary/5 p-space-md rounded-DEFAULT relative overflow-hidden">
+<div class="flex items-center justify-between mb-space-xs">
+<span class="px-space-sm py-space-xxs rounded-full bg-primary text-on-primary font-label-md text-[0.6875rem] uppercase">1. Victorias Rápidas (Quick Wins)</span>
+<span class="material-symbols-outlined text-primary text-[1.25rem]">bolt</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-primary mb-1">Alto Impacto + Alta Factibilidad</p>
+<p class="font-body-sm text-[0.8125rem] text-on-surface-variant mb-space-sm">Acciones ejecutables por los propios cursos sin permisos de obra mayor.</p>
+<ul class="space-y-space-xxs font-body-sm text-[0.8125rem] text-on-surface">
+<li class="flex items-center gap-1.5 p-1.5 rounded-DEFAULT bg-surface-container-lowest shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary flex-shrink-0"></span>
+<strong>EcoZonas Vivas &amp; Muralismo</strong> (Propuesta A seleccionada)
+              </li>
+<li class="flex items-center gap-1.5 p-1.5 rounded-DEFAULT bg-surface-container-lowest shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary flex-shrink-0"></span>
+<strong>Liga de Guardianes del Recreo</strong> (Reglamento gamificado)
+              </li>
+<li class="flex items-center gap-1.5 p-1.5 rounded-DEFAULT bg-surface-container-lowest shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary flex-shrink-0"></span>
+                Pintado de circuitos de motricidad y rayuela en suelo
+              </li>
+</ul>
+</div>
+<div class="bg-tertiary-container/10 p-space-md rounded-DEFAULT relative overflow-hidden">
+<div class="flex items-center justify-between mb-space-xs">
+<span class="px-space-sm py-space-xxs rounded-full bg-tertiary-container text-on-tertiary-container font-label-md text-[0.6875rem] uppercase">2. Grandes Proyectos Estratégicos</span>
+<span class="material-symbols-outlined text-tertiary text-[1.25rem]">star</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-tertiary mb-1">Alto Impacto + Baja/Media Factibilidad</p>
+<p class="font-body-sm text-[0.8125rem] text-on-surface-variant mb-space-sm">Requieren alianzas de carpintería y fondos externos del Centro de Padres.</p>
+<ul class="space-y-space-xxs font-body-sm text-[0.8125rem] text-on-surface">
+<li class="flex items-center gap-1.5 p-1.5 rounded-DEFAULT bg-surface-container-lowest shadow-sm">
+<span class="w-2 h-2 rounded-full bg-tertiary flex-shrink-0"></span>
+<strong>Mobiliario Modular Reciclado &amp; Ping Pong DIY</strong>
+</li>
+<li class="flex items-center gap-1.5 p-1.5 rounded-DEFAULT bg-surface-container-lowest shadow-sm">
+<span class="w-2 h-2 rounded-full bg-tertiary flex-shrink-0"></span>
+                Techado biológico con parras y captación de lluvia
+              </li>
+<li class="flex items-center gap-1.5 p-1.5 rounded-DEFAULT bg-surface-container-lowest shadow-sm">
+<span class="w-2 h-2 rounded-full bg-tertiary flex-shrink-0"></span>
+                Compostera comunitaria para restos del casino escolar
+              </li>
+</ul>
+</div>
+<div class="bg-surface-container-low p-space-md rounded-DEFAULT">
+<div class="flex items-center justify-between mb-space-xs">
+<span class="px-space-sm py-space-xxs rounded-full bg-surface-container-high text-on-surface-variant font-label-md text-[0.6875rem] uppercase">3. Llenadores de Huecos (Fill-ins)</span>
+<span class="material-symbols-outlined text-outline text-[1.25rem]">low_priority</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-on-surface mb-1">Bajo Impacto + Alta Factibilidad</p>
+<p class="font-body-sm text-[0.8125rem] text-on-surface-variant mb-space-sm">Pequeñas intervenciones de apoyo diario que no resuelven la raíz.</p>
+<ul class="space-y-space-xxs font-body-sm text-[0.8125rem] text-on-surface-variant">
+<li class="flex items-center gap-1.5 p-1.5 rounded-DEFAULT bg-surface-container-lowest/80">
+<span class="w-2 h-2 rounded-full bg-outline flex-shrink-0"></span>
+                Afiches informativos impresos en salas de clases
+              </li>
+<li class="flex items-center gap-1.5 p-1.5 rounded-DEFAULT bg-surface-container-lowest/80">
+<span class="w-2 h-2 rounded-full bg-outline flex-shrink-0"></span>
+                Sonido de timbre con mensajes ecológicos grabados
+              </li>
+</ul>
+</div>
+<div class="bg-error-container/20 p-space-md rounded-DEFAULT">
+<div class="flex items-center justify-between mb-space-xs">
+<span class="px-space-sm py-space-xxs rounded-full bg-error-container text-on-error-container font-label-md text-[0.6875rem] uppercase">4. Ideas Descartadas (Money Pits)</span>
+<span class="material-symbols-outlined text-error text-[1.25rem]">cancel</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-error mb-1">Bajo Impacto + Baja Factibilidad</p>
+<p class="font-body-sm text-[0.8125rem] text-on-surface-variant mb-space-sm">Desestimadas por presupuesto inviable, riesgo o desconexión pedagógica.</p>
+<ul class="space-y-space-xxs font-body-sm text-[0.8125rem] text-on-surface-variant">
+<li class="flex items-center gap-1.5 p-1.5 rounded-DEFAULT bg-surface-container-lowest/80">
+<span class="w-2 h-2 rounded-full bg-error flex-shrink-0"></span>
+                Instalación de cámaras con IA para multar a quienes boten basura
+              </li>
+<li class="flex items-center gap-1.5 p-1.5 rounded-DEFAULT bg-surface-container-lowest/80">
+<span class="w-2 h-2 rounded-full bg-error flex-shrink-0"></span>
+                Reemplazo total del suelo de concreto por césped sintético comercial
+              </li>
+</ul>
+</div>
+</div>
+</div>
+<div class="lg:col-span-4 flex flex-col gap-space-md">
+<div class="bg-surface-container-lowest p-space-lg rounded-DEFAULT shadow-sm">
+<span class="font-headline-sm text-headline-sm text-on-surface block mb-space-xs">Distribución de Ideas</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+            Mapeo porcentual de las 48 propuestas categorizadas en la sesión plenaria con los delegados ambientales.
+          </p>
+<div class="flex items-center justify-center my-space-xs">
+<svg class="w-44 h-44 -rotate-90" viewbox="0 0 160 160">
+<circle class="stroke-surface-container" cx="80" cy="80" fill="none" r="62" stroke-width="20"></circle>
+<!-- Quick wins: 42% (dasharray ~ 163.6 on 389.5 circumference) -->
+<circle class="stroke-primary" cx="80" cy="80" fill="none" r="62" stroke-dasharray="163.6 389.5" stroke-dashoffset="0" stroke-width="20"></circle>
+<!-- Big projects: 29% (dasharray ~ 113 on 389.5) -->
+<circle class="stroke-tertiary-container" cx="80" cy="80" fill="none" r="62" stroke-dasharray="113 389.5" stroke-dashoffset="-163.6" stroke-width="20"></circle>
+<!-- Fill-ins: 17% (dasharray ~ 66.2) -->
+<circle class="stroke-secondary" cx="80" cy="80" fill="none" r="62" stroke-dasharray="66.2 389.5" stroke-dashoffset="-276.6" stroke-width="20"></circle>
+<!-- Money pits: 12% (dasharray ~ 46.7) -->
+<circle class="stroke-error" cx="80" cy="80" fill="none" r="62" stroke-dasharray="46.7 389.5" stroke-dashoffset="-342.8" stroke-width="20"></circle>
+</svg>
+</div>
+<div class="space-y-space-xxs pt-space-xs text-[0.8125rem] font-body-sm">
+<div class="flex items-center justify-between">
+<span class="flex items-center gap-2 text-on-surface"><span class="w-3 h-3 rounded-full bg-primary"></span>Victorias Rápidas</span>
+<span class="font-code-mono font-bold text-primary">42% (20 ideas)</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="flex items-center gap-2 text-on-surface"><span class="w-3 h-3 rounded-full bg-tertiary-container"></span>Grandes Proyectos</span>
+<span class="font-code-mono font-bold text-tertiary">29% (14 ideas)</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="flex items-center gap-2 text-on-surface"><span class="w-3 h-3 rounded-full bg-secondary"></span>Llenadores de Huecos</span>
+<span class="font-code-mono font-bold text-secondary">17% (8 ideas)</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="flex items-center gap-2 text-on-surface"><span class="w-3 h-3 rounded-full bg-error"></span>Descartadas</span>
+<span class="font-code-mono font-bold text-error">12% (6 ideas)</span>
+</div>
+</div>
+</div>
+<div class="p-space-md rounded-DEFAULT bg-primary-container/20 flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[2rem]">task_alt</span>
+<div>
+<span class="font-headline-sm text-[0.9375rem] text-on-surface">Veredicto del Panel Docente</span>
+<p class="font-body-sm text-[0.8125rem] text-on-surface-variant">
+              Las Victorias Rápidas combinadas con un Gran Proyecto modular ofrecen la ruta más sostenible para el ciclo lectivo actual.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="mb-space-3xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-lg">
+<div>
+<div class="flex items-center gap-2 text-primary font-code-mono text-code-mono mb-1">
+<span class="material-symbols-outlined text-[1.125rem]">trophy</span>
+<span>CONVERGENCIA FINALISTA // TOP 3 SOLUCIONES</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">3. Las Tres Alternativas Finalistas Seleccionadas</h2>
+</div>
+<span class="px-space-sm py-space-xxs rounded-full bg-surface-container font-label-md text-label-md text-on-surface-variant">
+        Filtro de Viabilidad Escolar Superado
+      </span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<div class="lg:col-span-12 bg-surface-container-lowest rounded-lg p-space-lg lg:p-space-xl shadow-md relative overflow-hidden ring-0">
+<div class="absolute top-0 right-0 bg-primary text-on-primary font-label-md text-label-md px-space-md py-space-xxs rounded-bl-DEFAULT flex items-center gap-1 font-bold">
+<span class="material-symbols-outlined text-[1rem]">check_circle</span>
+          SELECCIONADA PARA PROTOTIPAR EN FASE 4
+        </div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<div class="lg:col-span-5">
+<div class="rounded-DEFAULT overflow-hidden relative shadow-sm">
+<img class="w-full h-72 object-cover" data-alt="Vibrant, colorful student-made environmental mural on a white brick school courtyard wall. The mural depicts native Chilean biodiversity and geometric botanical patterns, integrated with handcrafted wooden recycling stations for plastics and cans. Students in uniforms gathered around with pride." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLRSOCMoT1zNiLNv_wxLJriRifx6VDL0DKoZz491an15ogxv9LvRLZMGxwy86ECWuS0smmC3Ok_cCxa3jEOsKFstrCK7ZnQwrBvoKP46KHsRbvicetw9i5BvXpTsSwf3SZMiq2v_u1RtA4Mkhq_bPDStWKEy4QGOp3jfBHuddzNWdYbxOIMzFX-inh2LpSxRyqaEz5iL4x1hTWBNCBfiNAE4PSOPeTkD_Pvj5N8U9eR3HXyDVybVs07w"/>
+<div class="absolute bottom-3 left-3 bg-on-surface/85 backdrop-blur-md px-3 py-1 rounded-full text-surface font-code-mono text-[0.6875rem] flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-primary-container"></span>
+                Render conceptual / Patio Central N°1
+              </div>
+</div>
+</div>
+<div class="lg:col-span-7 flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="px-space-sm py-space-xxs rounded-full bg-primary-container text-on-primary-container font-code-mono text-code-mono uppercase font-bold">Alternativa Ganadora A</span>
+<span class="font-label-md text-label-md text-primary font-semibold">★ 88 Puntos Dot-Voting</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface leading-tight">
+              EcoZonas Vivas con Muralismo Participativo y Puntos Limpios Temáticos
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Reconversión integral del muro norte del patio mediante un mural identitario con técnica de mosaico y pintura ecológica, integrando 3 estaciones de reciclaje temáticas construidas en madera recuperada, rotuladas por cursos con mensajes lúdicos de orgullo barrial.
+            </p>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm pt-space-xs">
+<div class="p-space-xs rounded-DEFAULT bg-surface-container-low">
+<span class="block font-label-md text-[0.6875rem] text-outline uppercase">Tiempo Ejecución</span>
+<span class="font-headline-sm text-[1rem] text-on-surface font-bold">12 Días de Sprint</span>
+</div>
+<div class="p-space-xs rounded-DEFAULT bg-surface-container-low">
+<span class="block font-label-md text-[0.6875rem] text-outline uppercase">Costo Estimado</span>
+<span class="font-headline-sm text-[1rem] text-on-surface font-bold">$180.000 CLP (Insumos)</span>
+</div>
+<div class="p-space-xs rounded-DEFAULT bg-surface-container-low">
+<span class="block font-label-md text-[0.6875rem] text-outline uppercase">Participación</span>
+<span class="font-headline-sm text-[1rem] text-primary font-bold">100% de la Comunidad</span>
+</div>
+</div>
+<div class="pt-space-xs flex flex-wrap items-center gap-space-xs">
+<span class="font-label-md text-label-md text-on-surface font-bold">Pilares:</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container font-label-md text-[0.75rem] text-on-surface-variant">Apropiación Cultural</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container font-label-md text-[0.75rem] text-on-surface-variant">Separación Efectiva 90%</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container font-label-md text-[0.75rem] text-on-surface-variant">Embellecimiento Inmediato</span>
+</div>
+</div>
+</div>
+</div>
+<div class="lg:col-span-6 bg-surface-container-lowest rounded-DEFAULT p-space-lg shadow-sm flex flex-col justify-between">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-space-xxs rounded-full bg-secondary-container text-on-secondary-container font-code-mono text-code-mono uppercase">Alternativa Finalista B</span>
+<span class="font-label-md text-label-md text-secondary font-bold">64 Puntos Dot-Voting</span>
+</div>
+<div class="rounded-DEFAULT overflow-hidden">
+<img class="w-full h-44 object-cover" data-alt="School bulletin board and interactive digital tablet station showing an inter-class recycling championship ladder with fun illustrated badges, trophy icons, and student team portraits at San Fernando school." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYSnsS6Vt8XfudhhfU4f95aATJHxaAD9tcmAtXxUb8PnMYYaFpldyr50EqlilwpQoZF73sKfZOMRPUY-AcXPbusVw3RzAhI0CjBqNkcweecAVFTsDmeUALW2d1UDPBwWu45yqO6ysEfGXflkNQALpT437uI8qB13I50QVfcftYZ_1cQx9iJYhvoopmTmBJ6jfXBs-Zm38nwpE-7gy5L_uWsZxDhoW-9r2WjENeY3XeesQa3STxW1I7YA"/>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Liga de Puntos Inter-Cursos: Guardianes del Recreo</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Sistema gamificado de convivencia donde patrullas rotativas de estudiantes ganan puntos de recreo libre, insignias y beneficios comunes al fiscalizar y cuidar los sectores asignados en cada jornada.
+          </p>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center justify-between text-on-surface-variant font-code-mono text-[0.75rem]">
+<span class="text-primary font-bold">Veredicto: Integrado como módulo de gestión</span>
+<span>Factibilidad: 9.2 / 10</span>
+</div>
+</div>
+<div class="lg:col-span-6 bg-surface-container-lowest rounded-DEFAULT p-space-lg shadow-sm flex flex-col justify-between">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-space-xxs rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-code-mono text-code-mono uppercase">Alternativa Finalista C</span>
+<span class="font-label-md text-label-md text-tertiary font-bold">58 Puntos Dot-Voting</span>
+</div>
+<div class="rounded-DEFAULT overflow-hidden">
+<img class="w-full h-44 object-cover" data-alt="Outdoor sturdy DIY ping-pong table made from upcycled wooden shipping pallets and smooth sanded timber sitting under shade sails in a school courtyard, with rackets and balls on the tabletop." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMm2oV_7FahaeoXjZWsm6O9CrqoM4dco39d-x0W5iXpxYIckRYYweM9CzKtjtfA0kTae3t_9NlGaI3Zys4it4cwZ2waxrW0B7x2Wh2f0ovQWK1FFR0rOA0RfuNE25kqlBdQSl9OHupxSpqWpAo9IsbFPjun10v2cSidMOkY5zvZpu7Ax0Prpa03cUBblu_bXmfIe1geWRkXhadmWuFL6GMxjUUTz3Nlu0hKGqPdNmLwzUGRbu-aD5Heg"/>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Mobiliario Modular Reciclado &amp; Mesa Ping Pong DIY</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Construcción comunitaria con pallets y carretes industriales de bobinas eléctricas para generar bancas de descanso con sombra y dos mesas de ping-pong permanentes en la zona deportiva.
+          </p>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center justify-between text-on-surface-variant font-code-mono text-[0.75rem]">
+<span class="text-tertiary font-bold">Veredicto: Fase posterior (2° Semestre)</span>
+<span>Factibilidad: 6.8 / 10</span>
+</div>
+</div>
+</div>
+</section>
+<section class="mb-space-xl">
+<div class="bg-surface-container-low rounded-lg p-space-lg lg:p-space-xl shadow-sm">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-lg">
+<div>
+<div class="flex items-center gap-2 text-primary font-code-mono text-code-mono mb-1">
+<span class="material-symbols-outlined text-[1.125rem]">how_to_vote</span>
+<span>VALIDACIÓN DEMOCRÁTICA // DOT VOTING</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">4. Criterios de Selección y Matriz de Votación Comunitaria</h2>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-primary"></span>
+<span class="font-label-md text-label-md text-on-surface-variant">Votación presencial con calcomanías rojas (3 votos por persona)</span>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<div class="lg:col-span-7 bg-surface-container-lowest rounded-DEFAULT p-space-md shadow-sm overflow-x-auto">
+<span class="block font-headline-sm text-[1rem] text-on-surface mb-space-sm">Matriz de Ponderación Multicriterio</span>
+<table class="w-full text-left font-body-sm text-[0.8125rem]">
+<thead>
+<tr class="bg-surface-container-low text-on-surface-variant font-code-mono text-[0.6875rem] uppercase">
+<th class="p-space-xs rounded-l-DEFAULT">Criterio de Evaluación</th>
+<th class="p-space-xs text-center">Peso</th>
+<th class="p-space-xs text-center">Propuesta A (Mural + Puntos)</th>
+<th class="p-space-xs text-center">Propuesta B (Liga Puntos)</th>
+<th class="p-space-xs text-center rounded-r-DEFAULT">Propuesta C (Mobiliario DIY)</th>
+</tr>
+</thead>
+<tbody class="divide-y-0">
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="p-space-xs font-semibold text-on-surface">1. Impacto visual y cultural inmediato</td>
+<td class="p-space-xs text-center font-code-mono">30%</td>
+<td class="p-space-xs text-center font-bold text-primary">9.5</td>
+<td class="p-space-xs text-center">6.8</td>
+<td class="p-space-xs text-center">8.2</td>
+</tr>
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="p-space-xs font-semibold text-on-surface">2. Factibilidad de ejecución (3 semanas)</td>
+<td class="p-space-xs text-center font-code-mono">25%</td>
+<td class="p-space-xs text-center font-bold text-primary">8.8</td>
+<td class="p-space-xs text-center">9.2</td>
+<td class="p-space-xs text-center">6.0</td>
+</tr>
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="p-space-xs font-semibold text-on-surface">3. Involucramiento activo de estudiantes</td>
+<td class="p-space-xs text-center font-code-mono">25%</td>
+<td class="p-space-xs text-center font-bold text-primary">9.6</td>
+<td class="p-space-xs text-center">8.5</td>
+<td class="p-space-xs text-center">7.5</td>
+</tr>
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="p-space-xs font-semibold text-on-surface">4. Sostenibilidad y durabilidad</td>
+<td class="p-space-xs text-center font-code-mono">20%</td>
+<td class="p-space-xs text-center font-bold text-primary">8.4</td>
+<td class="p-space-xs text-center">7.0</td>
+<td class="p-space-xs text-center">8.9</td>
+</tr>
+<tr class="bg-primary/10 font-bold text-on-surface">
+<td class="p-space-xs rounded-l-DEFAULT">Puntuación Final Ponderada</td>
+<td class="p-space-xs text-center font-code-mono">100%</td>
+<td class="p-space-xs text-center text-primary font-headline-sm text-[1rem]">9.13 / 10</td>
+<td class="p-space-xs text-center text-secondary font-headline-sm text-[1rem]">7.87 / 10</td>
+<td class="p-space-xs text-center text-tertiary font-headline-sm text-[1rem]">7.62 / 10</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="lg:col-span-5 flex flex-col justify-between gap-space-md">
+<div class="bg-surface-container-lowest rounded-DEFAULT p-space-md shadow-sm">
+<span class="block font-headline-sm text-[1rem] text-on-surface mb-space-xs">Cómputo Total Dot-Voting</span>
+<div class="space-y-space-xs">
+<div>
+<div class="flex justify-between font-label-md text-label-md mb-1">
+<span class="font-bold text-primary">Propuesta A: EcoZonas Vivas</span>
+<span class="font-code-mono font-bold">88 Puntos (42%)</span>
+</div>
+<div class="w-full h-3 rounded-full bg-surface-container overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 42%;"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between font-label-md text-label-md mb-1">
+<span class="font-bold text-secondary">Propuesta B: Liga Guardianes</span>
+<span class="font-code-mono font-bold">64 Puntos (30%)</span>
+</div>
+<div class="w-full h-3 rounded-full bg-surface-container overflow-hidden">
+<div class="h-full bg-secondary rounded-full" style="width: 30%;"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between font-label-md text-label-md mb-1">
+<span class="font-bold text-tertiary">Propuesta C: Mobiliario Ping Pong</span>
+<span class="font-code-mono font-bold">58 Puntos (28%)</span>
+</div>
+<div class="w-full h-3 rounded-full bg-surface-container overflow-hidden">
+<div class="h-full bg-tertiary-container rounded-full" style="width: 28%;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="p-space-md rounded-DEFAULT bg-surface-container-lowest flex items-start gap-space-sm shadow-sm">
+<div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-primary">rocket_launch</span>
+</div>
+<div>
+<span class="font-headline-sm text-[0.9375rem] text-on-surface block">Pase Inmediato a Fase 4: Prototipar</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Se conformaron 3 sub-equipos de construcción: Maqueta a Escala 1:20 del muro, Pruebas de Pintura Anti-graffiti y Estructura en Taller de Madera.
+              </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="flex flex-col sm:flex-row items-center justify-between gap-space-md bg-surface-container-lowest p-space-lg rounded-DEFAULT shadow-sm mb-space-lg">
+<div class="flex items-center gap-space-sm">
+<div class="w-12 h-12 rounded-full bg-primary-container/20 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[1.75rem]">arrow_forward</span>
+</div>
+<div>
+<span class="block font-headline-sm text-headline-sm text-on-surface">¿Listo para ver los planos y maquetas físicas?</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Avanza a la Fase 4 para revisar el ensamble del prototipo funcional.</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs">
+  <a class="px-space-md py-space-xs rounded-full bg-surface-container-high text-on-surface font-label-lg text-label-lg hover:bg-surface-container-highest transition-colors" href="../fase_2_definir/code.html">
+        Ver Fase 2: Definir
+  </a>
+  <a class="px-space-lg py-space-xs rounded-full bg-primary text-on-primary font-label-lg text-label-lg hover:bg-primary/90 transition-all shadow-sm flex items-center gap-1.5" href="../fase_4_prototipar/code.html">
+    <span>Ir a Fase 4: Prototipar</span>
+  </a>
+  <span class="material-symbols-outlined text-[1.125rem]">arrow_forward</span>
+</div>
+</div>
+</div>
+<script>
+  (function() {
+    const filterButtons = document.querySelectorAll('.tag-filter-btn');
+    const stickyNotes = document.querySelectorAll('.sticky-note');
+    const toggleFilterBtn = document.getElementById('toggleFilterBtn');
+
+    function applyFilter(category) {
+      stickyNotes.forEach(note => {
+        const noteCategory = note.getAttribute('data-category');
+        if (category === 'all' || noteCategory === category) {
+          note.style.display = 'flex';
+          note.style.opacity = '1';
+        } else {
+          note.style.display = 'none';
+          note.style.opacity = '0';
+        }
+      });
+
+      filterButtons.forEach(btn => {
+        const btnTag = btn.getAttribute('data-tag');
+        if (btnTag === category) {
+          btn.classList.remove('bg-surface-container-highest', 'text-on-surface-variant');
+          btn.classList.add('bg-primary', 'text-on-primary');
+        } else {
+          btn.classList.add('bg-surface-container-highest', 'text-on-surface-variant');
+          btn.classList.remove('bg-primary', 'text-on-primary');
+        }
+      });
+    }
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const tag = btn.getAttribute('data-tag');
+        applyFilter(tag);
+      });
+    });
+
+    if (toggleFilterBtn) {
+      toggleFilterBtn.addEventListener('click', () => {
+        const firstCategoryBtn = document.querySelector('.tag-filter-btn[data-tag="arte"]');
+        if (firstCategoryBtn) {
+          firstCategoryBtn.click();
+        }
+      });
+    }
+
+    stickyNotes.forEach(note => {
+      note.addEventListener('click', () => {
+        const badge = note.querySelector('.text-primary.font-code-mono');
+        if (badge) {
+          let currentVotes = parseInt(badge.textContent.replace(/[^0-9]/g, ''), 10) || 0;
+          currentVotes += 1;
+          badge.textContent = `★ ${currentVotes} Votos`;
+          note.classList.add('scale-105');
+          setTimeout(() => note.classList.remove('scale-105'), 200);
+        }
+      });
+    });
+  })();
+</script></div></main><footer class="w-full bg-surface-container-lowest shadow-[0_-1px_6px_rgba(0,0,0,0.02)] pt-space-2xl pb-space-xl"><div class="max-w-container-max mx-auto px-gutter-desktop grid grid-cols-1 md:grid-cols-4 gap-space-xl"><div class="md:col-span-2 flex flex-col gap-space-sm"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm text-on-surface">Colegio San Fernando</span><span class="px-space-xs py-space-xxs rounded-full bg-surface-container text-on-surface-variant font-label-md text-[0.6875rem]">Acreditación MinEduc</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-lg">Proyecto Design Thinking: Regeneración y Cuidado de Espacios Comunes. Laboratorio de co-diseño escolar para la transformación ecológica y la convivencia comunitaria.</p><div class="flex items-center gap-space-xs text-on-surface-variant font-code-mono text-code-mono"><span class="material-symbols-outlined text-[1rem] text-primary">school</span><span>Promoción 2026 · Curso 9° Medio B · Área de Ciencias y Ciudadanía</span></div></div><div class="flex flex-col gap-space-xs"><h4 class="font-headline-sm text-[1rem] text-on-surface mb-space-xs">Equipo de Co-Diseño</h4><ul class="space-y-space-xxs font-body-sm text-body-sm text-on-surface-variant"><li>Sofía Valenzuela (Líder de Investigación)</li><li>Mateo Carrasco (Documentación Visual)</li><li>Valentina Ríos (Prototipado Espacial)</li><li>Lucas Henríquez (Facilitación y Pruebas)</li><li>Prof. Andrés Morales (Tutor Pedagógico)</li></ul></div><div class="flex flex-col gap-space-xs"><h4 class="font-headline-sm text-[1rem] text-on-surface mb-space-xs">Recursos Didácticos</h4><ul class="space-y-space-xxs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors flex items-center gap-space-xxs" href="#"><span class="material-symbols-outlined text-[1rem]">attach_file</span>Guía Docente Metodológica</a></li><li><a class="hover:text-primary transition-colors flex items-center gap-space-xxs" href="#"><span class="material-symbols-outlined text-[1rem]">description</span>Plantillas de Empatía y Mapeo</a></li><li><a class="hover:text-primary transition-colors flex items-center gap-space-xxs" href="#"><span class="material-symbols-outlined text-[1rem]">photo_library</span>Registro Fotográfico Abierto</a></li><li><a class="hover:text-primary transition-colors flex items-center gap-space-xxs" href="#"><span class="material-symbols-outlined text-[1rem]">analytics</span>Matriz de Impacto Comunitario</a></li></ul></div></div><div class="max-w-container-max mx-auto px-gutter-desktop mt-space-xl pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-surface-variant font-body-sm text-body-sm"><p>© 2026 Colegio San Fernando · Licencia Creative Commons Atribución-CompartirIgual 4.0</p><p class="font-code-mono text-code-mono text-outline">San Fernando Co-Lab v1.4 // Documentación Abierta</p></div></footer></body></html>

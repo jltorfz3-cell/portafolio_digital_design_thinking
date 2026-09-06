@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;800&amp;family=Lexend:wght@400;600&amp;family=JetBrains+Mono:wght@400&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}nav a:hover{background-color: #006C49; cursor: pointer;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"error":"#ba1a1a","error-container":"#ffdad6","inverse-on-surface":"#eaf1ff","primary-container":"#10b981","on-surface":"#0b1c30","on-secondary-fixed-variant":"#3f465c","inverse-surface":"#213145","surface-variant":"#d3e4fe","primary-fixed":"#6ffbbe","primary-fixed-dim":"#4edea3","primary":"#006c49","on-surface-variant":"#3c4a42","surface":"#f8f9ff","on-secondary-container":"#5c647a","surface-container":"#e5eeff","on-primary-container":"#00422b","surface-container-low":"#eff4ff","on-primary-fixed":"#002113","background":"#f8f9ff","on-primary":"#ffffff","on-tertiary-container":"#523200","on-background":"#0b1c30","outline-variant":"#bbcabf","on-tertiary-fixed-variant":"#653e00","on-secondary-fixed":"#131b2e","inverse-primary":"#4edea3","tertiary-fixed":"#ffddb8","on-tertiary-fixed":"#2a1700","on-primary-fixed-variant":"#005236","outline":"#6c7a71","secondary-container":"#dae2fd","surface-container-lowest":"#ffffff","tertiary-container":"#e29100","on-secondary":"#ffffff","tertiary":"#855300","on-error":"#ffffff","surface-dim":"#cbdbf5","secondary-fixed":"#dae2fd","secondary":"#565e74","surface-tint":"#006c49","on-tertiary":"#ffffff","on-error-container":"#93000a","surface-container-high":"#dce9ff","surface-bright":"#f8f9ff","tertiary-fixed-dim":"#ffb95f","surface-container-highest":"#d3e4fe","secondary-fixed-dim":"#bec6e0"},"borderRadius":{"DEFAULT":"1rem","lg":"2rem","xl":"3rem","full":"9999px"},"spacing":{"space-4xl":"6rem","space-xxs":"0.25rem","space-2xl":"3rem","container-max":"76rem","gutter-mobile":"1rem","space-md":"1rem","space-sm":"0.75rem","gutter-desktop":"1.5rem","space-lg":"1.5rem","space-xl":"2rem","space-xs":"0.5rem","space-3xl":"4.5rem"},"fontFamily":{"label-lg":["Lexend"],"body-md":["Lexend"],"label-md":["Lexend"],"headline-lg":["Bricolage Grotesque"],"display-hero":["Bricolage Grotesque"],"code-mono":["JetBrains Mono"],"headline-sm":["Bricolage Grotesque"],"headline-md":["Bricolage Grotesque"],"body-sm":["Lexend"],"display-hero-mobile":["Bricolage Grotesque"],"headline-lg-mobile":["Bricolage Grotesque"],"body-lg":["Lexend"]},"fontSize":{"label-lg":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.02em","fontWeight":"600"}],"body-md":["1rem",{"lineHeight":"1.625rem","fontWeight":"400"}],"label-md":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.05em","fontWeight":"600"}],"headline-lg":["2.5rem",{"lineHeight":"2.875rem","letterSpacing":"-0.02em","fontWeight":"700"}],"display-hero":["3.5rem",{"lineHeight":"3.75rem","letterSpacing":"-0.03em","fontWeight":"800"}],"code-mono":["0.8125rem",{"lineHeight":"1.25rem","fontWeight":"400"}],"headline-sm":["1.25rem",{"lineHeight":"1.625rem","fontWeight":"600"}],"headline-md":["1.75rem",{"lineHeight":"2.125rem","letterSpacing":"-0.01em","fontWeight":"700"}],"body-sm":["0.875rem",{"lineHeight":"1.375rem","fontWeight":"400"}],"display-hero-mobile":["2.25rem",{"lineHeight":"2.5rem","letterSpacing":"-0.02em","fontWeight":"800"}],"headline-lg-mobile":["1.75rem",{"lineHeight":"2.125rem","letterSpacing":"-0.01em","fontWeight":"700"}],"body-lg":["1.125rem",{"lineHeight":"1.875rem","fontWeight":"400"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-container-max mx-auto px-gutter-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Logo San Fernando Design Thinking" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAgpk7NiSyJCFvNd6WLimO11rDyHHE9PNTVnDUHUEt64-_vdz2AwP5rIRXKLyteVP8a0XLdwPHB7zJARPszPxLvPcmcTwwpEq7swC4RIKAf0Z3Lc9gQ5rfNKll8h9m7sgZobsyDCkP9-onkcbXm0U8DYEUFuZOIHEguM8vuf5tGyVA9SXV_FagjrMbBpAG5Kcu0RDGjdTyj0gD2ezoDbWbkM5FGq4gkHEkibB9uS3mMJBeKvomTr3U0Q"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface leading-tight">San Fernando Co-Lab</span><span class="font-label-md text-label-md text-primary tracking-wide">Design Thinking</span></div></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-label-lg rounded-full px-space-sm py-space-xxs"><a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface transition-colors" data-path="vision-general" href="../san_fernando_co_lab_design_thinking_flow/code.html">Visión General</a><a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface transition-colors" data-path="fase-1-empatizar" href="../fase_1_empatizar/code.html">Fase 1: Empatizar</a><a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface transition-colors" data-path="fase-2-definir" href="../fase_2_definir/code.html">Fase 2: Definir</a><a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface transition-colors" data-path="fase-3-idear" href="../fase_3_idear/code.html">Fase 3: Idear</a><a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface transition-colors" data-path="fase-4-prototipar" href="../fase_4_prototipar/code.html">Fase 4: Prototipar</a><a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface transition-colors" data-path="fase-5-testear" href="../fase_5_testear/code.html">Fase 5: Testear</a><a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface transition-colors" data-path="video_pitch" href="../video_pitch/code.html">Video Pitch</a></nav><div class="flex items-center gap-space-md"><button class="hidden sm:inline-flex items-center justify-center px-space-md py-space-xs rounded-full bg-primary text-on-primary font-label-lg text-label-lg hover:bg-primary/90 transition-all shadow-sm" type="button"><span class="material-symbols-outlined text-[1.125rem] mr-space-xs">download</span>Descargar Memoria PDF</button><div class="flex items-center gap-space-xs bg-surface-container-low px-space-xs py-space-xxs rounded-full"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAb3Bv5jHPQx2P-7pmZKklCTzXCBRwH8Xt9DLxUxqnjsFIrOVedBnGjv0wwJsrtWojx677MjBq8Aul-brOw10tKdeC1KTe7gPJp9bayw6hwAFp1BgUaqDSFEM3PD72H8uBS6JpqaoP-H4inlgzMZIR2hsBgeF-zxJZ3Mi8hOr8BEboGWEvHGQUP7RF7QIydehyhVd-ZRRwcznHLeT5G2P-GNpjF8yMKxlyVqYL3hoDL6yveRX3aq59y0Q"/><div class="hidden md:flex flex-col pr-space-xs text-left"><span class="font-label-md text-label-md text-on-surface leading-tight">Prof. Facilitador</span><span class="font-label-md text-label-md text-on-surface-variant text-[0.6875rem] leading-none">Equipo 4B</span></div></div></div></div><div class="w-full bg-surface-container-low/70 py-space-xxs"><div class="max-w-container-max mx-auto px-gutter-desktop flex items-center justify-between overflow-x-auto gap-space-md"><div class="flex items-center gap-space-xs"><span class="w-5 h-5 rounded-full bg-surface-container text-on-surface-variant flex items-center justify-center font-label-md text-[0.625rem]">1</span><span class="font-label-md text-label-md text-on-surface-variant whitespace-nowrap">Empatizar</span></div><div class="h-0.5 flex-1 min-w-8 bg-outline-variant/40 rounded-full"></div><div class="flex items-center gap-space-xs"><span class="w-5 h-5 rounded-full bg-surface-container text-on-surface-variant flex items-center justify-center font-label-md text-[0.625rem]">2</span><span class="font-label-md text-label-md text-on-surface-variant whitespace-nowrap">Definir</span></div><div class="h-0.5 flex-1 min-w-8 bg-outline-variant/40 rounded-full"></div><div class="flex items-center gap-space-xs"><span class="w-5 h-5 rounded-full bg-surface-container text-on-surface-variant flex items-center justify-center font-label-md text-[0.625rem]">3</span><span class="font-label-md text-label-md text-on-surface-variant whitespace-nowrap">Idear</span></div><div class="h-0.5 flex-1 min-w-8 bg-outline-variant/40 rounded-full"></div><div class="flex items-center gap-space-xs"><span class="w-5 h-5 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-md text-[0.625rem]">4</span><span class="font-label-md text-label-md text-on-surface whitespace-nowrap">Prototipar</span></div><div class="h-0.5 flex-1 min-w-8 bg-outline-variant/40 rounded-full"></div><div class="flex items-center gap-space-xs"><span class="w-5 h-5 rounded-full bg-surface-container text-on-surface-variant flex items-center justify-center font-label-md text-[0.625rem]">5</span><span class="font-label-md text-label-md text-on-surface-variant whitespace-nowrap">Testear</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="max-w-container-max mx-auto px-gutter-desktop py-space-xl"><div class="flex flex-col w-full">
+<!-- Top Phase Identifier & Punchy Headline Banner -->
+<section class="relative w-full overflow-hidden rounded-xl bg-surface-container-lowest p-space-lg md:p-space-2xl shadow-sm">
+<div class="absolute -right-20 -top-24 w-96 h-96 rounded-full bg-primary-container/10 blur-3xl pointer-events-none"></div>
+<div class="absolute -left-12 -bottom-20 w-80 h-80 rounded-full bg-tertiary-container/10 blur-2xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col gap-space-md">
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="inline-flex items-center gap-space-xxs px-space-sm py-space-xxs rounded-full bg-primary-fixed text-on-primary-fixed font-label-md text-label-md uppercase tracking-wider">
+<span class="material-symbols-outlined text-[1rem]">construction</span>
+          Fase 04 / Prototipar
+        </span>
+<span class="inline-flex items-center gap-space-xxs px-space-sm py-space-xxs rounded-full bg-surface-container-high text-on-surface-variant font-code-mono text-code-mono">
+          Sprint Activo: Iteración 2 · Baja &amp; Media Fidelidad
+        </span>
+<span class="inline-flex items-center gap-space-xxs px-space-sm py-space-xxs rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md">
+          Solución: EcoZonas Vivas
+        </span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-end">
+<div class="lg:col-span-8 flex flex-col gap-space-xs">
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight leading-tight">
+            Fase 4: Prototipar — Construcción Tangible de la Solución
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl">
+            Materializamos los hallazgos de empatía e ideación convirtiendo el patio central en un laboratorio táctil de baja y media fidelidad. Sin grandes presupuestos: probamos hipótesis espaciales en 7 días mediante maquetas, storyboards vivenciales y dos artefactos piloto a escala 1:1.
+          </p>
+</div>
+<div class="lg:col-span-4 flex flex-col gap-space-xs bg-surface-container-low p-space-md rounded-lg shadow-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase">Eficacia de Prototipado</span>
+<span class="font-code-mono text-code-mono text-primary font-bold">88% validado</span>
+</div>
+<div class="w-full bg-surface-container-highest h-2 rounded-full overflow-hidden">
+<div class="bg-primary-container h-full rounded-full" style="width: 88%"></div>
+</div>
+<div class="grid grid-cols-3 gap-space-xxs pt-space-xxs text-center">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">3</span>
+<span class="font-label-md text-[0.6875rem] text-on-surface-variant">Artefactos</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary">0$</span>
+<span class="font-label-md text-[0.6875rem] text-on-surface-variant">Costo Fiscal</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">7 d</span>
+<span class="font-label-md text-[0.6875rem] text-on-surface-variant">Prueba Real</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Sticky Note Tactile Callout Banner -->
+<div class="my-space-lg grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<div class="bg-[#fef3c7] text-[#523200] p-space-md rounded-lg shadow-sm rotate-[-0.8deg] flex flex-col justify-between">
+<div class="flex items-center gap-space-xxs text-[0.75rem] font-code-mono uppercase tracking-wider mb-space-xs">
+<span class="material-symbols-outlined text-[1rem]">push_pin</span> Principio Rector 01
+      </div>
+<p class="font-body-md text-body-md leading-snug">
+<strong>"Falla rápido, aprende barato":</strong> Ninguna pieza construida superó las 48 horas de trabajo previo antes de tocar el suelo escolar para ser probada con estudiantes reales.
+      </p>
+<span class="text-right font-label-md text-label-md mt-space-xs opacity-75">— Bitácora Valentina R.</span>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-lg shadow-sm flex flex-col justify-between">
+<div class="flex items-center gap-space-xxs text-primary font-code-mono text-code-mono uppercase mb-space-xs">
+<span class="material-symbols-outlined text-[1rem]">lightbulb</span> Reto de Co-diseño
+      </div>
+<p class="font-body-md text-body-md text-on-surface leading-snug">
+        Reemplazar la pasividad de los 25 minutos de recreo por dinámicas activas de separación de residuos y expresión colectiva libre de rayados destructivos.
+      </p>
+<div class="flex items-center gap-space-xs mt-space-xs text-on-surface-variant font-label-md text-label-md">
+<span class="material-symbols-outlined text-primary text-[1.125rem]">verified</span>
+<span>Aprobado por Inspectoría y Centro de Alumnos</span>
+</div>
+</div>
+<div class="bg-surface-container-high text-on-surface p-space-md rounded-lg shadow-sm rotate-[0.6deg] flex flex-col justify-between">
+<div class="flex items-center gap-space-xxs font-code-mono text-code-mono uppercase text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-[1rem]">dataset</span> Métricas del Piloto
+      </div>
+<div class="space-y-space-xxs font-body-sm text-body-sm">
+<div class="flex justify-between items-center">
+<span>Botellas PET recuperadas:</span>
+<span class="font-code-mono font-bold text-primary">342 und</span>
+</div>
+<div class="flex justify-between items-center">
+<span>Mensajes en Mural Acuerdos:</span>
+<span class="font-code-mono font-bold text-tertiary">119 notas</span>
+</div>
+<div class="flex justify-between items-center">
+<span>Alumnos involucrados:</span>
+<span class="font-code-mono font-bold text-on-surface">6 cursos</span>
+</div>
+</div>
+<span class="font-label-md text-[0.6875rem] text-on-surface-variant mt-space-xs">Semana de ensayo: 14 al 18 de Octubre</span>
+</div>
+</div>
+<!-- SECTION 1: Tríada de Prototipado (Storyboard, Maqueta, Piloto 1:1) -->
+<section class="mt-space-xl flex flex-col gap-space-lg">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-space-xs pb-space-xs">
+<div>
+<span class="font-code-mono text-code-mono text-primary uppercase tracking-wider font-semibold">// 01. Enfoque Táctico Multiescala</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">La Tríada de Experimentación 'EcoZonas Vivas'</h2>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant">Desde el concepto narrativo hasta el contacto físico</span>
+</div>
+<!-- Artifact 1: Storyboard -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg md:p-space-xl shadow-sm flex flex-col gap-space-md">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-12 h-12 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container">
+<span class="material-symbols-outlined text-[1.5rem]">auto_stories</span>
+</div>
+<div>
+<span class="font-label-md text-label-md uppercase text-primary font-bold">Prototipo 1 · Baja Fidelidad Narrativa</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Storyboard del Viaje del Estudiante (25 Minutos de Recreo)</h3>
+</div>
+</div>
+<span class="px-space-sm py-space-xxs rounded-full bg-surface-container text-on-surface-variant font-code-mono text-code-mono">
+          Hipótesis: Fricción Cero en Disposición
+        </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-4xl">
+        Mapeamos segundo a segundo los micro-comportamientos escolares: desde la salida en estampida del timbre (Minuto 0) hasta la aglomeración en los kioscos y la dispersión residual en las gradas. El storyboard permitió detectar que los estudiantes arrojan botellas al piso porque no quieren pausar su conversación ni detener el juego de fútbol improvisado.
+      </p>
+<!-- Visual 4-Step Storyboard Strip -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md pt-space-xs">
+<!-- Step 1 -->
+<div class="flex flex-col bg-surface-container-low rounded-lg p-space-sm shadow-sm">
+<div class="relative h-44 rounded overflow-hidden mb-space-sm">
+<img class="w-full h-full object-cover" data-alt="Sketch storyboard drawing in pencil and green watercolor of high school students rushing out of classroom corridors into a sunny courtyard during school break bell at Chilean secondary school." src="https://lh3.googleusercontent.com/aida-public/AB6AXuChShLE7AKiPxdeHCv3DUbTPM3gIXJ-RgO_XABW9VL00vpmcDUBwt6nibztTtaH5-cDHsn72aR3oBxN6t7XQtjeNxceSrMk3wcFyKDL-ZA4Fa4IehnqTI3txKO7bc2kLPeucVmGNxA1cD4VGtd3ZXw9crloCsQ8UMn21TwaKE0evDFpS2CdaSYgSkG-K418076D6HmDY_57TYuVvgwhmplXk62xAcVO1PvijAp85Z1hdnvaf9yAz4tPAg"/>
+<span class="absolute top-2 left-2 px-space-xs py-space-xxs bg-surface-container-lowest/90 font-code-mono text-[0.6875rem] font-bold rounded">Min 00 - 05</span>
+</div>
+<h4 class="font-headline-sm text-[1.0625rem] text-on-surface mb-space-xxs">1. Dispersión y Compra</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Salida masiva hacia el kiosco. Consumo veloz de snacks y bebidas en envases desechables mientras se desplazan hacia el patio central.
+          </p>
+</div>
+<!-- Step 2 -->
+<div class="flex flex-col bg-surface-container-low rounded-lg p-space-sm shadow-sm">
+<div class="relative h-44 rounded overflow-hidden mb-space-sm">
+<img class="w-full h-full object-cover" data-alt="Colored pencil storyboard frame depicting Chilean high schoolers sitting along concrete bleachers holding juice bottles, engaged in conversation while noticing an interactive basketball recycling hoop in the distance." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnTpzNFy18Fo3eK81l6httJTnNlq_JEFSAziBkfhmthWGo0JrjXJ7vpLVVlnWV-i97FixrgnxishLgSmfAwhjK2LdUcaf-jIa8m-au_UkFb58-vf_nowwm_zjTCj3DIneeWapcJC6XJfmTSYpBTBg2V4TIpVu8zZXi0W97zL_fRNMkrOjYBl5g2nB1H2wTRKO4goUl-Rp5q6ba7A_IpWl36hWTAz-MaMH2zf75dLijtdkULBIi8EYpSw"/>
+<span class="absolute top-2 left-2 px-space-xs py-space-xxs bg-surface-container-lowest/90 font-code-mono text-[0.6875rem] font-bold rounded">Min 06 - 14</span>
+</div>
+<h4 class="font-headline-sm text-[1.0625rem] text-on-surface mb-space-xxs">2. Ocupación de Gradas</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Puntos de encuentro pasivo. Los residuos solían quedar abandonados en los peldaños por pereza de caminar 40 metros la caneca de basura tradicional.
+          </p>
+</div>
+<!-- Step 3 -->
+<div class="flex flex-col bg-surface-container-low rounded-lg p-space-sm shadow-sm">
+<div class="relative h-44 rounded overflow-hidden mb-space-sm">
+<img class="w-full h-full object-cover" data-alt="Dynamic storyboard sketch showing a student joyfully throwing a plastic bottle like a basketball through an elevated mini-hoop mounted on a green painted recycled wood drum station, peers cheering." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUoupZRYwfEIx6rZoTMQbB52QlQMKEzVUWlZyx6icMlMT6f4ghihFkf-Esu3HBHNlOL5mptiuYqFN2xrWOhX3lfMk5uxmUYyEm_5BDPjf1z6m_lpETwfUNgJyRu3aGjzQtZkul6HDZiaBvDSFbydgpgRsHZpsYDJgXt1pPjeildHJ9j9p3xUqn2T88IxZlm5uRh39BrMaG3TExipgJ634UBzwJCpc1T8uQQY6nrkod4EV9JLL-HsfdCw"/>
+<span class="absolute top-2 left-2 px-space-xs py-space-xxs bg-primary text-on-primary font-code-mono text-[0.6875rem] font-bold rounded">Min 15 - 20 (Giro)</span>
+</div>
+<h4 class="font-headline-sm text-[1.0625rem] text-on-surface mb-space-xxs">3. El Disparo Gamificado</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            El "Aro de Enceste PET" transforma la obligación higiénica en micro-desafío competitivo sin interrumpir la charla entre amigos.
+          </p>
+</div>
+<!-- Step 4 -->
+<div class="flex flex-col bg-surface-container-low rounded-lg p-space-sm shadow-sm">
+<div class="relative h-44 rounded overflow-hidden mb-space-sm">
+<img class="w-full h-full object-cover" data-alt="Storyboard sketch of school students gathering around a chalk and plywood mural board, writing collaborative coexistence rules and drawing graffiti art before the return bell rings." src="https://lh3.googleusercontent.com/aida-public/AB6AXuChh9sIvqxhTt6QJRZasIHGbTS2kcsNRlZ-Gyo4a-XtgzL0QzRs1kHKr4Hi1L00t__Vol2O6Bu7AAbt8hb_7MJhVHpnm2vq_DU5O67aACuomJjUuUZIob_97CnNQNVLW5ESoV1rua1wp-3EcRYne7rtUk9C3ZKb8vKRl0NKotEIg1F2gy6wZ0DMGFy9uxE7tdsl_XzxB9bOufG3EFVMV7RzQTW3m8WtP3LKNjPo9f1MZoNoPYAK2croLg"/>
+<span class="absolute top-2 left-2 px-space-xs py-space-xxs bg-surface-container-lowest/90 font-code-mono text-[0.6875rem] font-bold rounded">Min 21 - 25</span>
+</div>
+<h4 class="font-headline-sm text-[1.0625rem] text-on-surface mb-space-xxs">4. Refugio y Expresión</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Paso por el Mural de Tizas antes del toque de timbre: dejar un trazo o mensaje de convivencia genera sentido de pertenencia y calma.
+          </p>
+</div>
+</div>
+</div>
+<!-- Artifact 2 & 3: Asymmetric Layout (Maqueta 1:50 & Pilotos 1:1) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- Maqueta 1:50 (5 cols) -->
+<div class="lg:col-span-5 bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-[1.25rem]">view_in_ar</span>
+</div>
+<div>
+<span class="font-label-md text-label-md uppercase text-secondary font-bold">Prototipo 2 · Escala Espacial</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Maqueta Física 1:50</h3>
+</div>
+</div>
+<div class="relative h-64 rounded-lg overflow-hidden shadow-inner">
+<img class="w-full h-full object-cover" data-alt="Architectural scale model 1 to 50 of a high school central courtyard and bleachers made from balsa wood, cardboard, recycled moss for vegetation, showing colorful zones and miniature student figures in a bright workshop." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBk67K1X3J6yUVVlbi43HbcDnQRQEdPP1CItjtcqwhIsf4UFtkw6716BP6oKIFMUEjhhEWRr0muYNkip49OfNsvk8SqrG0tbcFA72nfL3JZ3B1sfFWTJrApGq3kZMECWJGzD059c6KaikbyYG4uGxgjKehmgDXcCD74cfnN9jlANsjZgRsgLtmbOywhO_w2GI6Piw8erVRuPPwVU-iUzyrxSXbF0of7RlrS752dYRIScfE1T1TlCpF5sw"/>
+<div class="absolute bottom-2 left-2 right-2 p-space-xs bg-surface-container-lowest/95 backdrop-blur-md rounded flex items-center justify-between text-on-surface font-code-mono text-code-mono">
+<span>Dimensión: 80x120 cm</span>
+<span class="text-primary font-bold">Reconfiguración 3 Zonas</span>
+</div>
+</div>
+<div class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<p>
+            Construida con cartón piedra de descarte, varillas de maqueta recicladas y musgo seco escolar. Permitió someter a testeo con el equipo directivo tres propuestas de zonificación sin mover un solo mueble real.
+          </p>
+<div class="bg-surface-container-low p-space-sm rounded space-y-space-xxs">
+<div class="font-label-md text-label-md text-on-surface font-bold">Descubrimientos clave en maqueta:</div>
+<ul class="list-disc list-inside space-y-1">
+<li>El 70% del flujo peatonal bloqueaba la entrada a los baños si se instalaban bancas centrales.</li>
+<li>Las gradas inferiores cuentan con sombra natural entre las 11:30 y 13:00 hrs: ubicación óptima para el rincón de lectura libre.</li>
+</ul>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-xs text-on-surface-variant font-code-mono text-code-mono">
+<span class="flex items-center gap-space-xxs">
+<span class="material-symbols-outlined text-[1rem] text-primary">group</span> 4° Medio B Arquitectura
+          </span>
+<span>Tiempo: 16 hrs lab</span>
+</div>
+</div>
+<!-- Piloto Físico 1:1 Instalado (7 cols) -->
+<div class="lg:col-span-7 bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[1.25rem]">handyman</span>
+</div>
+<div>
+<span class="font-label-md text-label-md uppercase text-primary font-bold">Prototipo 3 · Escala Real 1:1</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Instalación Piloto en Patio: 7 Días de Prueba</h3>
+</div>
+</div>
+<span class="px-space-sm py-space-xxs rounded-full bg-primary-container text-on-primary-container font-label-md text-label-md uppercase">
+            En Terreno
+          </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Implementamos dos dispositivos físicos de intervención directa durante una semana escolar completa (Lunes a Viernes) para medir la respuesta espontánea de más de 620 alumnos.
+        </p>
+<!-- Sub-Cards for the 2 Physical Artefacts -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Artefact A: Aro de Basquet para Botellas -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col justify-between shadow-sm">
+<div>
+<div class="h-44 rounded overflow-hidden mb-space-sm relative">
+<img class="w-full h-full object-cover" data-alt="Full-scale working prototype in a Chilean schoolyard: a large upcycled blue plastic drum painted with ecological green and white typography, fitted with a custom wooden backboard and basketball hoop made from discarded metal ring for tossing plastic bottles, surrounded by students." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_v4XA9FeseyYLG87nxTVfLcFPApWb1ZuHSIRGC_zOrzMhWaTdTOnkdh2ZIz3GnOHBRsclwN8SQikiKaUA4EmDk6DiJ9XKVaYQ7H-7NugUdh4W-sn-K9FMIs3FXznecqD-tU5KuaOepmqhtlvWU66Fk0UPpFuTAHjIYcaOKjLk0zir7XSC-xtoMbufMqU3DXCDZMGqS4flFjiLBXmaX0cjgjAIiG4UpVzl4QGV_LP4m2-WMCH1PCduUw"/>
+<span class="absolute top-2 right-2 px-space-xs py-space-xxs bg-primary text-on-primary font-label-md text-[0.6875rem] rounded-full">
+                  Artefacto Alpha
+                </span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Estación de Separación Lúdica "Tiro al PET"</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xxs">
+                Bidón industrial reacondicionado con aro metálico a 1.90m y tablero de madera reciclada. Añade contador analógico de canastas operado por monitores ambientales de 8° básico.
+              </p>
+</div>
+<div class="mt-space-sm pt-space-xs bg-surface-container-lowest p-space-xs rounded flex items-center justify-between text-on-surface font-code-mono text-code-mono">
+<span>Recolección diaria:</span>
+<span class="font-bold text-primary">~68 botellas/día</span>
+</div>
+</div>
+<!-- Artefact B: Pizarra Mural de Acuerdos -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col justify-between shadow-sm">
+<div>
+<div class="h-44 rounded overflow-hidden mb-space-sm relative">
+<img class="w-full h-full object-cover" data-alt="High school communal chalkboard wall made from painted reclaimed pallet wood standing in a school yard, covered with colorful chalk handwritten student ideas, peaceful coexistence slogans, and botanical doodles." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXiAeTkL4rr_DQmxGCMpaECssSOD4nd-rNT0A7Fdu3U7R6DRfH_FqYsqvfWpJa07NUeJXuEbw_uy_dW05DbgzuwHbsLet5pPF776ZrrghJnpBbkp4awCz8twsHUwDnW8tlfzfB_N31ElCfN6hYHQUD11RQU2JFPsZRt3ZnXPvWX6Owqui50KPNrmI2X3gYmRV5IxBQz5OsSuR0YFkaQZOsolwAp45QyCwRoTeOy_jP4S-aesetLpXrYA"/>
+<span class="absolute top-2 right-2 px-space-xs py-space-xxs bg-tertiary-container text-on-tertiary-container font-label-md text-[0.6875rem] rounded-full">
+                  Artefacto Beta
+                </span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Mural de Tizas y Acuerdos de Convivencia</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xxs">
+                Estructura autoportante de 3 palets recuperados revestida con tablero MDF pintado con pintura pizarra lavable. Espacio abierto para proponer normas de cuidado común.
+              </p>
+</div>
+<div class="mt-space-sm pt-space-xs bg-surface-container-lowest p-space-xs rounded flex items-center justify-between text-on-surface font-code-mono text-code-mono">
+<span>Grafitis destructivos:</span>
+<span class="font-bold text-primary">0 incidentes</span>
+</div>
+</div>
+</div>
+<!-- Student Quote Inside Prototype -->
+<div class="p-space-md bg-surface-container rounded-lg flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[2rem]">format_quote</span>
+<div class="flex flex-col">
+<p class="font-body-md text-body-md text-on-surface italic">
+              "Antes las botellas quedaban tiradas debajo de las gradas porque nadie quería ser el aburrido que va a botar la basura. Con el aro, los estudiantes hacían fila para encestar desde el centro de la cancha."
+            </p>
+<span class="font-label-md text-label-md text-on-surface-variant mt-space-xxs">
+              — Lucas Henríquez (Alumno 9° Medio B &amp; Facilitador de Campo)
+            </span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: Ficha Técnica de Materiales y Trazabilidad Circular -->
+<section class="mt-space-2xl flex flex-col gap-space-lg">
+<div class="flex flex-col gap-space-xxs">
+<span class="font-code-mono text-code-mono text-primary uppercase tracking-wider font-semibold">// 02. Ficha Técnica y Economía Circular</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Inventario de Materiales de Bajo Costo y Descarte</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-3xl">
+        Ningún material fue comprado nuevo en grandes ferreterías. Toda la materialidad proviene de donaciones de la comunidad educativa, residuos de talleres técnicos y excedentes municipales.
+      </p>
+</div>
+<!-- Data Table & Material Cards Bento -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- Materials Breakdown (7 cols) -->
+<div class="lg:col-span-7 bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col gap-space-md">
+<h3 class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary">inventory_2</span>
+          Especificación de Componentes Constructivos
+        </h3>
+<div class="overflow-x-auto">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead>
+<tr class="bg-surface-container-low text-on-surface font-label-md text-label-md uppercase">
+<th class="p-space-sm rounded-l">Elemento</th>
+<th class="p-space-sm">Origen / Donante</th>
+<th class="p-space-sm">Cantidad</th>
+<th class="p-space-sm rounded-r">Costo Real</th>
+</tr>
+</thead>
+<tbody class="divide-y-0 text-on-surface-variant">
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="p-space-sm font-semibold text-on-surface flex items-center gap-space-xxs">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span> Palets de madera pino (120x80cm)
+                </td>
+<td class="p-space-sm">Bodega Maestranza Municipal</td>
+<td class="p-space-sm font-code-mono">8 unidades</td>
+<td class="p-space-sm font-code-mono font-bold text-primary">$0 (Reciclado)</td>
+</tr>
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="p-space-sm font-semibold text-on-surface flex items-center gap-space-xxs">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span> Bidones plásticos industriales 200L
+                </td>
+<td class="p-space-sm">Familia apoderada (Agrícola local)</td>
+<td class="p-space-sm font-code-mono">3 unidades</td>
+<td class="p-space-sm font-code-mono font-bold text-primary">$0 (Limpiados y desinfectados)</td>
+</tr>
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="p-space-sm font-semibold text-on-surface flex items-center gap-space-xxs">
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary"></span> Pintura pizarra al agua no tóxica
+                </td>
+<td class="p-space-sm">Sobrante Departamento de Artes</td>
+<td class="p-space-sm font-code-mono">2 galones</td>
+<td class="p-space-sm font-code-mono font-bold text-primary">$0 (Stock escolar)</td>
+</tr>
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="p-space-sm font-semibold text-on-surface flex items-center gap-space-xxs">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span> Aro básquet y pernos tirafondo
+                </td>
+<td class="p-space-sm">Gimnasio del colegio (Aro en desuso)</td>
+<td class="p-space-sm font-code-mono">1 set</td>
+<td class="p-space-sm font-code-mono font-bold text-primary">$0 (Reutilizado)</td>
+</tr>
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="p-space-sm font-semibold text-on-surface flex items-center gap-space-xxs">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container"></span> Esmalte sintético base verde/blanco
+                </td>
+<td class="p-space-sm">Donación Centro General de Padres</td>
+<td class="p-space-sm font-code-mono">1 tineta</td>
+<td class="p-space-sm font-code-mono font-bold text-primary">$0 (Aporte voluntario)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="flex flex-wrap items-center justify-between gap-space-xs p-space-sm bg-surface-container-low rounded text-on-surface font-code-mono text-code-mono">
+<span>Huella de carbono ahorrada estimada:</span>
+<span class="font-bold text-primary">~148 kg CO₂eq vs. mobiliario comercial</span>
+</div>
+</div>
+<!-- Donut Chart & Ecological Impact Summary (5 cols) -->
+<div class="lg:col-span-5 bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xxs">
+<span class="font-label-md text-label-md uppercase text-primary font-bold">Composición de Recursos</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Índice de Circularidad Material</h3>
+</div>
+<!-- Inline SVG Donut Chart (<2KB) -->
+<div class="flex flex-col sm:flex-row items-center justify-center gap-space-md py-space-xs">
+<div class="relative w-40 h-40 flex items-center justify-center">
+<svg class="w-full h-full transform -rotate-90" viewbox="0 0 36 36">
+<!-- Background Ring -->
+<path class="text-surface-container-highest" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3.5"></path>
+<!-- Recycled Wood (Palets) 55% -->
+<path class="text-primary" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="55, 100" stroke-linecap="round" stroke-width="3.5"></path>
+<!-- Repurposed Plastics 30% -->
+<path class="text-primary-container" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="30, 100" stroke-dashoffset="-55" stroke-linecap="round" stroke-width="3.5"></path>
+<!-- Surplus Paints 15% -->
+<path class="text-tertiary-container" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="15, 100" stroke-dashoffset="-85" stroke-linecap="round" stroke-width="3.5"></path>
+</svg>
+<div class="absolute inset-0 flex flex-col items-center justify-center text-center">
+<span class="font-headline-md text-headline-md text-on-surface font-extrabold leading-none">94%</span>
+<span class="font-label-md text-[0.6875rem] text-on-surface-variant uppercase">Reutilizado</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs font-body-sm text-body-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded-full bg-primary shrink-0"></span>
+<span><strong>55%</strong> Madera recuperada (palets)</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded-full bg-primary-container shrink-0"></span>
+<span><strong>30%</strong> Polímeros de alta densidad (bidones)</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded-full bg-tertiary-container shrink-0"></span>
+<span><strong>15%</strong> Pinturas sobrantes no tóxicas</span>
+</div>
+</div>
+</div>
+<div class="p-space-sm bg-surface-container-low rounded-lg text-on-surface-variant font-body-sm text-body-sm">
+<p class="flex items-center gap-space-xs text-on-surface font-semibold mb-space-xxs">
+<span class="material-symbols-outlined text-primary text-[1.125rem]">security</span>
+            Seguridad Estudiantil Garantizada
+          </p>
+          Lijado manual grano 80 y 120 para erradicar astillas; bordes biselados con fresadora escolar; sellado perimetral antichispas y tornillería oculta avellanada.
+        </div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: Cronograma de Fabricación y Corresponsabilidad Multietaria -->
+<section class="mt-space-2xl flex flex-col gap-space-lg">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-space-xs pb-space-xs">
+<div>
+<span class="font-code-mono text-code-mono text-primary uppercase tracking-wider font-semibold">// 03. Fabricación Colaborativa</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Cronograma y Roles Inter-Niveles</h2>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant">4 Jornadas de Taller · 4° Básico a 4° Medio</span>
+</div>
+<!-- Timeline Grid Cards -->
+<div class="grid grid-cols-1 md:grid-cols-4 gap-space-md">
+<!-- Day 1 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-xs">
+<span class="px-space-xs py-space-xxs bg-surface-container font-code-mono text-code-mono rounded text-on-surface-variant">Día 1 · Lunes</span>
+<span class="material-symbols-outlined text-primary text-[1.25rem]">cleaning_services</span>
+</div>
+<h4 class="font-headline-sm text-[1.125rem] text-on-surface mb-space-xxs">Acopio, Lijado y Desinfección</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Recepción de palets y tambores en el patio de taller. Lavado a presión y remoción de clavos oxidados.
+          </p>
+</div>
+<div class="mt-space-md pt-space-xs bg-surface-container-low p-space-xs rounded">
+<span class="font-label-md text-[0.6875rem] text-secondary uppercase block font-bold">Responsables:</span>
+<span class="font-body-sm text-body-sm text-on-surface">3° Medio Técnico Eléctrico + Profesores Guía</span>
+</div>
+</div>
+<!-- Day 2 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-xs">
+<span class="px-space-xs py-space-xxs bg-surface-container font-code-mono text-code-mono rounded text-on-surface-variant">Día 2 · Martes</span>
+<span class="material-symbols-outlined text-primary text-[1.25rem]">carpenter</span>
+</div>
+<h4 class="font-headline-sm text-[1.125rem] text-on-surface mb-space-xxs">Corte, Ensamble y Fijación</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Unión de palets para base de pizarra autoportante. Calado de abertura para aro de botellas y anclaje de escuadras.
+          </p>
+</div>
+<div class="mt-space-md pt-space-xs bg-surface-container-low p-space-xs rounded">
+<span class="font-label-md text-[0.6875rem] text-secondary uppercase block font-bold">Responsables:</span>
+<span class="font-body-sm text-body-sm text-on-surface">4° Medio B (Sofía V., Mateo C., Valentina R.)</span>
+</div>
+</div>
+<!-- Day 3 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-xs">
+<span class="px-space-xs py-space-xxs bg-surface-container font-code-mono text-code-mono rounded text-on-surface-variant">Día 3 · Miércoles</span>
+<span class="material-symbols-outlined text-tertiary text-[1.25rem]">palette</span>
+</div>
+<h4 class="font-headline-sm text-[1.125rem] text-on-surface mb-space-xxs">Pintura Ecológica y Rotulación</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Aplicación de imprimación, pintura de pizarra negra y diseño de señalética lúdica con plantillas stencil de tipografía.
+          </p>
+</div>
+<div class="mt-space-md pt-space-xs bg-surface-container-low p-space-xs rounded">
+<span class="font-label-md text-[0.6875rem] text-secondary uppercase block font-bold">Responsables:</span>
+<span class="font-body-sm text-body-sm text-on-surface">Taller de Arte 7° y 8° Básico (Intergeneracional)</span>
+</div>
+</div>
+<!-- Day 4 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-xs">
+<span class="px-space-xs py-space-xxs bg-primary-container text-on-primary-container font-code-mono text-code-mono rounded font-bold">Día 4 · Jueves</span>
+<span class="material-symbols-outlined text-primary text-[1.25rem]">rocket_launch</span>
+</div>
+<h4 class="font-headline-sm text-[1.125rem] text-on-surface mb-space-xxs">Instalación y Prueba Piloto</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Montaje en patio central a las 07:30 hrs antes del ingreso. Activación del primer recreo con monitores ambientales.
+          </p>
+</div>
+<div class="mt-space-md pt-space-xs bg-surface-container-low p-space-xs rounded">
+<span class="font-label-md text-[0.6875rem] text-secondary uppercase block font-bold">Responsables:</span>
+<span class="font-body-sm text-body-sm text-on-surface">Comité Ambiental Estudiantil + Inspectoría</span>
+</div>
+</div>
+</div>
+<!-- Student Co-Responsibility Gallery Mosaic -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg md:p-space-xl shadow-sm flex flex-col gap-space-md">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-xs">
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Evidencia Visual: Fabricación y Puesta en Marcha</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Estudiantes de distintos ciclos compartiendo herramientas, aprendizajes y custodia del espacio escolar.</p>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-sm py-space-xxs rounded-full bg-surface-container text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors flex items-center gap-space-xxs" id="toggle-guide-btn" type="button">
+<span class="material-symbols-outlined text-[1rem]">tune</span>
+<span id="filter-label">Ver Checklist de Seguridad</span>
+</button>
+</div>
+</div>
+<!-- Mosaic Grid -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-md">
+<div class="md:col-span-8 h-72 rounded-lg overflow-hidden relative shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Chilean high school students wearing safety goggles and protective gloves working cooperatively outdoors, assembling wooden pallet benches with cordless screwdrivers under the supervision of a science teacher." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCs8Q_S6Hx-QQl9Czn4OxYn8o64UUYHkVnWCamh2lU3ApKimDAI8D6_WlTcQUWvnNRYx7quzBFT0rYK-E7-BfYFb5oQeVsc9s49sq9e7tYO5YS4Xc4mXeHEgCJS14esiaOsyj3S9uQ1WjE5qr8iPWgyphqhsee0GaK4pctcb0lzAyZjmrQVVCVJwmiU_-Y2bfar1LGOAbrTF8uf_JWU37ihOt5b988ZcTH_RY2umJdBA85vzpSjhDCsSA"/>
+<div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-on-surface/90 via-on-surface/40 to-transparent p-space-md text-on-primary">
+<span class="font-code-mono text-code-mono text-primary-fixed block uppercase">Jornada de Carpintería Comunitaria</span>
+<p class="font-body-sm text-body-sm">Alumnos de 4° Medio guiando a estudiantes de básica en el uso responsable de taladros y lijadoras.</p>
+</div>
+</div>
+<div class="md:col-span-4 h-72 rounded-lg overflow-hidden relative shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Close-up candid photo of teenage student hands painting white stencil educational lettering onto a bright green upcycled container, showing precision and handmade craft quality." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-E8tDF9SQ-keJS7aDyUBdp9FUKKsOs82aCXMN6z_9dAE7VWFVaRN3bXkGQZA5ZzKNPEJApWGOSeYHj_Bk9PRQkd7wkW7G9Jk_KlU9WEEvpx98l09nz6TUYSS098VgJVvgNZD_A_vAXA2XG7TZs1iDPmNGLoVUsfFdHLO8bd-iycHd8cOxtddVAygrkHXNlQvg_FuE_r_2Q2vKzB1o9zM_Y3mGC41o5t2IUzSdfRSK99ARxnTwvJYWkg"/>
+<div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-on-surface/90 via-on-surface/40 to-transparent p-space-sm text-on-primary">
+<span class="font-code-mono text-code-mono text-tertiary-fixed block uppercase">Señalética Tipográfica</span>
+<p class="font-body-sm text-body-sm">Taller de rotulación manual con pintura no tóxica.</p>
+</div>
+</div>
+</div>
+<!-- Collapsible Safety & Fabrication Protocol (Interactive via vanilla JS) -->
+<div class="hidden p-space-md bg-surface-container-low rounded-lg transition-all duration-300" id="safety-checklist">
+<div class="flex items-center justify-between mb-space-sm">
+<h4 class="font-headline-sm text-[1rem] text-on-surface flex items-center gap-space-xxs">
+<span class="material-symbols-outlined text-primary">fact_check</span>
+            Protocolo de Fabricación Segura Escolar (Norma NCh 3262)
+          </h4>
+<span class="font-code-mono text-code-mono text-primary font-bold">100% Cumplido</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm font-body-sm text-body-sm text-on-surface-variant">
+<div class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[1.125rem] mt-0.5">check_circle</span>
+<span>Uso obligatorio de EPP: gafas protectoras de policarbonato, guantes de nitrilo y mascarillas antipolvo durante lijado.</span>
+</div>
+<div class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[1.125rem] mt-0.5">check_circle</span>
+<span>Zona de corte restringida: única y exclusivamente operada por docentes o alumnos mayores debidamente capacitados.</span>
+</div>
+<div class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[1.125rem] mt-0.5">check_circle</span>
+<span>Anclajes desmontables: ningún artefacto perforó estructuralmente el hormigón patrimonial del colegio San Fernando.</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Navigation Bridge to Next Phase (Fase 5: Testear) -->
+<section class="mt-space-2xl mb-space-xl p-space-lg md:p-space-xl bg-surface-container-high rounded-xl shadow-sm flex flex-col md:flex-row items-center justify-between gap-space-lg">
+<div class="flex flex-col gap-space-xxs">
+<div class="flex items-center gap-space-xs text-primary font-code-mono text-code-mono">
+<span class="material-symbols-outlined text-[1.125rem]">arrow_forward</span>
+<span>Siguiente Hito Metodológico</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">¿Listos para medir el impacto real con la comunidad?</h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+        Con los prototipos 1:1 instalados en el patio, avanzamos a la <strong>Fase 5: Testear</strong> para levantar matrices de feedback, contar métricas de segregación y afinar el modelo final de escalabilidad escolar.
+      </p>
+</div>
+<div class="flex flex-wrap items-center gap-space-sm shrink-0">
+<a class="px-space-md py-space-xs rounded-full bg-surface-container-lowest text-on-surface font-label-lg text-label-lg hover:bg-surface-container transition-all shadow-sm" data-path="fase-3-idear" href="../fase_3_idear/code.html">
+        ← Volver a Idear
+      </a>
+<a class="px-space-lg py-space-xs rounded-full bg-primary text-on-primary font-label-lg text-label-lg hover:bg-primary/90 transition-all shadow-md flex items-center gap-space-xxs" data-path="fase-5-testear" href="../fase_5_testear/code.html">
+<span>Ir a Fase 5: Testear</span>
+<span class="material-symbols-outlined text-[1.125rem]">arrow_forward</span>
+</a>
+</div>
+</section>
+<!-- Micro-interaction Script for Checklist Toggle -->
+<script>
+    (function() {
+      const toggleBtn = document.getElementById('toggle-guide-btn');
+      const checklist = document.getElementById('safety-checklist');
+      const label = document.getElementById('filter-label');
+      
+      if (toggleBtn && checklist) {
+        toggleBtn.addEventListener('click', function() {
+          const isHidden = checklist.classList.contains('hidden');
+          if (isHidden) {
+            checklist.classList.remove('hidden');
+            label.textContent = 'Ocultar Checklist';
+          } else {
+            checklist.classList.add('hidden');
+            label.textContent = 'Ver Checklist de Seguridad';
+          }
+        });
+      }
+    })();
+  </script>
+</div></div></main><footer class="w-full bg-surface-container-lowest shadow-[0_-1px_6px_rgba(0,0,0,0.02)] pt-space-2xl pb-space-xl"><div class="max-w-container-max mx-auto px-gutter-desktop grid grid-cols-1 md:grid-cols-4 gap-space-xl"><div class="md:col-span-2 flex flex-col gap-space-sm"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm text-on-surface">Colegio San Fernando</span><span class="px-space-xs py-space-xxs rounded-full bg-surface-container text-on-surface-variant font-label-md text-[0.6875rem]">Acreditación MinEduc</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-lg">Proyecto Design Thinking: Regeneración y Cuidado de Espacios Comunes. Laboratorio de co-diseño escolar para la transformación ecológica y la convivencia comunitaria.</p><div class="flex items-center gap-space-xs text-on-surface-variant font-code-mono text-code-mono"><span class="material-symbols-outlined text-[1rem] text-primary">school</span><span>Promoción 2026 · Curso 4° Medio B · Área de Ciencias y Ciudadanía</span></div></div><div class="flex flex-col gap-space-xs"><h4 class="font-headline-sm text-[1rem] text-on-surface mb-space-xs">Equipo de Co-Diseño</h4><ul class="space-y-space-xxs font-body-sm text-body-sm text-on-surface-variant"><li>Sofía Valenzuela (Líder de Investigación)</li><li>Mateo Carrasco (Documentación Visual)</li><li>Valentina Ríos (Prototipado Espacial)</li><li>Lucas Henríquez (Facilitación y Pruebas)</li><li>Prof. Andrés Morales (Tutor Pedagógico)</li></ul></div><div class="flex flex-col gap-space-xs"><h4 class="font-headline-sm text-[1rem] text-on-surface mb-space-xs">Recursos Didácticos</h4><ul class="space-y-space-xxs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors flex items-center gap-space-xxs" href="#"><span class="material-symbols-outlined text-[1rem]">attach_file</span>Guía Docente Metodológica</a></li><li><a class="hover:text-primary transition-colors flex items-center gap-space-xxs" href="#"><span class="material-symbols-outlined text-[1rem]">description</span>Plantillas de Empatía y Mapeo</a></li><li><a class="hover:text-primary transition-colors flex items-center gap-space-xxs" href="#"><span class="material-symbols-outlined text-[1rem]">photo_library</span>Registro Fotográfico Abierto</a></li><li><a class="hover:text-primary transition-colors flex items-center gap-space-xxs" href="#"><span class="material-symbols-outlined text-[1rem]">analytics</span>Matriz de Impacto Comunitario</a></li></ul></div></div><div class="max-w-container-max mx-auto px-gutter-desktop mt-space-xl pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-surface-variant font-body-sm text-body-sm"><p>© 2026 Colegio San Fernando · Licencia Creative Commons Atribución-CompartirIgual 4.0</p><p class="font-code-mono text-code-mono text-outline">San Fernando Co-Lab v1.4 // Documentación Abierta</p></div></footer></body></html>
